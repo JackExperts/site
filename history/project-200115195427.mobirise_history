@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JAC-2",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -48,14 +48,16 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///Users/contato318/lixo/site"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "JAC | Team of experts",
-        "meta_descr": "DevOPs, Infra as Code e Computação em Nuvem.\nConsultoria, serviços e treinamentos. Sob medida. Simples assim.",
+        "title": "Home",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -729,10 +731,10 @@
         }
       ]
     },
-    "noc.html": {
+    "page1.html": {
       "settings": {
-        "meta_descr": "NOC ORCHESTRATOR - uma plataforma colaborativa para criar, gerenciar e executar procedimentos, de operação de TI, baseados em código. Uma plataforma brazuca de OaaS (Operation as a Service).",
-        "title": "JAC | Team of experts - NOC ORCHESTRATOR",
+        "meta_descr": "Web Page Builder Description",
+        "title": "labs",
         "order": 2
       },
       "components": [
@@ -1926,10 +1928,10 @@
         }
       ]
     },
-    "consultoria.html": {
+    "page2.html": {
       "settings": {
-        "meta_descr": "Um time de especialistas em DevOps, Infra as a Code e Cloud - para potencializar o seu negócio.",
-        "title": "Consultoria - JAC | Team of experts",
+        "meta_descr": "Site Creator Description",
+        "title": "Consultoria",
         "order": 1
       },
       "components": [
