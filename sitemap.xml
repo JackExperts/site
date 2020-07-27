@@ -1,11 +1,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://jac.bsb.br/consultoria.html</loc>
-	</url>
-	<url>
-		<loc>https://jac.bsb.br/noc.html</loc>
-	</url>
-	<url>
 		<loc>https://jac.bsb.br/index.html</loc>
+	</url>
+	<url>
+		<loc>https://jac.bsb.br/lives.html</loc>
+	</url>
+	<url>
+		<loc>https://jac.bsb.br/consultoria.html</loc>
 	</url>
 </urlset>
