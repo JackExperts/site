@@ -3115,6 +3115,21 @@ section.lazy-placeholder:after {
     padding-top: 3rem;
   }
 }
+.cid-s68QeSDcnG {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #0f7699, #291366);
+}
+@media (min-width: 992px) {
+  .cid-s68QeSDcnG .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-s68QeSDcnG .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-s5WZqwS4MU {
   padding-top: 60px;
   padding-bottom: 60px;
