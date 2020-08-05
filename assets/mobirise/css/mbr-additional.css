@@ -2896,6 +2896,21 @@ section.lazy-placeholder:after {
 .cid-s5XcHMozUq P {
   color: #767676;
 }
+.cid-s6K7w4eyCg {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #0f7699, #b2ccd2);
+}
+@media (min-width: 992px) {
+  .cid-s6K7w4eyCg .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-s6K7w4eyCg .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-s6k2sHkvS1 {
   padding-top: 90px;
   padding-bottom: 90px;
