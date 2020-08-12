@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "JAC",
-    "currentPage": "index.html",
+    "name": "JAC-2",
+    "currentPage": "lives.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -58,9 +58,7 @@
     "google-analytics": "<script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\nga('create', 'UA-139168363-1', 'auto');\nga('send', 'pageview');\n</script>",
     "cookiesAlert": false,
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
-    "witsec-language": "pt",
-    "witsec-white-label": true
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "consultoria.html": {
