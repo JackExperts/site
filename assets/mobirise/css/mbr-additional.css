@@ -2951,6 +2951,36 @@ section.lazy-placeholder:after {
 .cid-s5XcHMozUq P {
   color: #767676;
 }
+.cid-s7Eiepsdft {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #cc2952, #ffb400);
+}
+@media (min-width: 992px) {
+  .cid-s7Eiepsdft .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-s7Eiepsdft .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-s7EiaRiJnc {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #0f7699, #ff7f9f);
+}
+@media (min-width: 992px) {
+  .cid-s7EiaRiJnc .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-s7EiaRiJnc .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-s7gh9N3VSz {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -5017,17 +5047,25 @@ section.lazy-placeholder:after {
 .cid-s7sfhM9T7U .mbr-section-subtitle {
   color: #767676;
 }
+.cid-s7scbBpIW1 {
+  background-image: url("../../../assets/images/it-guy-in-datacenter-scaled-2000x1125.jpg");
+}
 .cid-s7s7kOK3Hh {
   background-image: url("../../../assets/images/containers-ship-1200x675.jpg");
+}
+.cid-s7tNtozydT {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-color: #e4d295;
+}
+.cid-s7tNtozydT .mbr-section-subtitle {
+  color: #767676;
 }
 .cid-s7s8n9K8s6 {
   background-image: url("../../../assets/images/house-made-of-8-containers-944x630.png");
 }
 .cid-s7s9qAW3aw {
   background-image: url("../../../assets/images/robotics3-1550488921667-8ub2zr-1600x1053.jpg");
-}
-.cid-s7scbBpIW1 {
-  background-image: url("../../../assets/images/it-guy-in-datacenter-scaled-2000x1125.jpg");
 }
 .cid-s7sdg0qH5u {
   background-image: url("../../../assets/images/coding-1600x900.jpg");
