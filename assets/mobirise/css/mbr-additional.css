@@ -2878,34 +2878,34 @@ section.lazy-placeholder:after {
     text-align: center;
   }
 }
-.cid-s5XbsWJ5Fc {
+.cid-s7Gh0K23EF {
   padding-top: 15px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-s5XbsWJ5Fc .mbr-section-subtitle {
+.cid-s7Gh0K23EF .mbr-section-subtitle {
   color: #767676;
   font-weight: 300;
 }
-.cid-s5XbsWJ5Fc .mbr-content-text {
+.cid-s7Gh0K23EF .mbr-content-text {
   color: #767676;
   margin-bottom: 0;
 }
-.cid-s5XbsWJ5Fc .card {
+.cid-s7Gh0K23EF .card {
   word-wrap: break-word;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
 }
 @media (min-width: 992px) {
-  .cid-s5XbsWJ5Fc .cards-block {
+  .cid-s7Gh0K23EF .cards-block {
     border-top: 2px solid #efefef;
   }
 }
-.cid-s5XbsWJ5Fc .cards-block .card {
+.cid-s7Gh0K23EF .cards-block .card {
   border-bottom: 2px solid #efefef;
   border-radius: 0;
 }
-.cid-s5XbsWJ5Fc .cards-container {
+.cid-s7Gh0K23EF .cards-container {
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
@@ -2915,12 +2915,12 @@ section.lazy-placeholder:after {
   justify-content: center;
   word-break: break-word;
 }
-.cid-s5XbsWJ5Fc .cards-block {
+.cid-s7Gh0K23EF .cards-block {
   flex-basis: 100%;
   -webkit-flex-basis: 100%;
 }
 @media (max-width: 991px) {
-  .cid-s5XbsWJ5Fc .media-block {
+  .cid-s7Gh0K23EF .media-block {
     flex-basis: 100%;
     -webkit-flex-basis: 100%;
     padding-left: 0;
@@ -2928,16 +2928,16 @@ section.lazy-placeholder:after {
   }
 }
 @media (min-width: 768px) {
-  .cid-s5XbsWJ5Fc .count {
+  .cid-s7Gh0K23EF .count {
     width: 100px;
   }
 }
 @media (max-width: 767px) {
-  .cid-s5XbsWJ5Fc .panel-item {
+  .cid-s7Gh0K23EF .panel-item {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  .cid-s5XbsWJ5Fc .card-img {
+  .cid-s7Gh0K23EF .card-img {
     padding-bottom: 1rem;
     padding-right: 0 !important;
     margin: auto;
@@ -2945,7 +2945,7 @@ section.lazy-placeholder:after {
 }
 .cid-s7FdmYBHdV {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-s7FdmYBHdV .mbr-section-subtitle {
@@ -3010,7 +3010,7 @@ section.lazy-placeholder:after {
 }
 .cid-s7FdrK8ice {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-s7FdrK8ice .mbr-section-subtitle {
