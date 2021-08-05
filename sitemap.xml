@@ -21,12 +21,12 @@
 		<loc>https://jacexperts.io/english.html</loc>
 	</url>
 	<url>
-		<loc>https://jacexperts.io/page7.html</loc>
-	</url>
-	<url>
 		<loc>https://jacexperts.io/jobs.html</loc>
 	</url>
 	<url>
 		<loc>https://jacexperts.io/jobs_gitops.html</loc>
+	</url>
+	<url>
+		<loc>https://jacexperts.io/treinamento_k8s_rancher.html</loc>
 	</url>
 </urlset>
