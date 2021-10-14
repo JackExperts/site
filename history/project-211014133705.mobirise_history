@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JAC-2",
-    "currentPage": "jobs.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -64,7 +64,9 @@
     "witsec-language": "pt",
     "witsec-white-label": true,
     "mbrsiteDomain": "zuuoyk4g3d",
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "file:///Users/ruan/SONIC/JAC/site"
   },
   "pages": {
     "consultoria.html": {
@@ -1147,13 +1149,13 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": true,
+            "slides__autoplay": false,
             "slides__autoplayInterval": 4000,
             "slides__showBullets": true,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -1204,7 +1206,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/noc-1920x1080.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
