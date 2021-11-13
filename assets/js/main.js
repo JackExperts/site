@@ -182,7 +182,7 @@
 })(jQuery);
 
 document.addEventListener("DOMContentLoaded", () => {
-    const dataText = ["Kubernetes", "Observabilidade", "CI/CD", "Cloud Native", "Monitoramento", "Containers"];
+    const dataText = ["Kubernetes", "Rancher", "CI/CD", "Cloud Native", "Observabilidade", "Containers"];
     const element = document.querySelector(`.intro-info > h2 > span:nth-child(2)`);
     const TIME_BETWEEN_ANIMATIONS = 1250;
     const TIME_AFTER_ANIMATIONS_END = 0;
