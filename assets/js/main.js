@@ -1,9 +1,3 @@
-/**
- * Template Name: NewBiz - v2.0.0
- * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 (function ($) {
     "use strict";
 
@@ -188,7 +182,7 @@
 })(jQuery);
 
 document.addEventListener("DOMContentLoaded", () => {
-    const dataText = ["Kubernetes", "Observabilidade", "CI/CD"];
+    const dataText = ["Kubernetes", "Observabilidade", "CI/CD", "Cloud Native", "Monitoramento", "Containers"];
     const element = document.querySelector(`.intro-info > h2 > span:nth-child(2)`);
     const TIME_BETWEEN_ANIMATIONS = 1250;
     const TIME_AFTER_ANIMATIONS_END = 0;
