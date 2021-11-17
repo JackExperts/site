@@ -165,7 +165,7 @@
             );
 
             setTimeout(() => {
-                $el.css({ height: 76, left: 10 });
+                $el.css({ height: 76, width: 150.25, left: 10 });
             }, 0);
         }
         if ($(this).scrollTop() < intro_container_offset.top && isPositionAbsolute) {

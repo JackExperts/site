@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -392,27 +390,22 @@ h6 {
 }
 
 .intro-img {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    object-fit: contain;
-    display: flex;
+    -webkit-transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
+    -moz-transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
     transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
-    position: sticky;
-    width: 30%;
-    min-width: 350px;
-    max-width: 350px;
+    min-height: 76px;
+    min-width: 150.25px;
     z-index: 999;
-    display: flex;
-    flex: 2;
 }
 
 #intro .container {
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    transition: all 2s;
 }
 
 @media (max-width: 991px) {
@@ -448,17 +441,18 @@ h6 {
 }
 
 #intro .intro-info {
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    transition: all 2s;
     min-width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    transition: all 2s;
 }
 
 .intro-img-placeholder {
     display: flex;
-    min-width: 350px;
     align-items: center;
     flex-grow: 1;
     justify-content: center;
@@ -466,7 +460,6 @@ h6 {
 
 .header-logo {
     display: flex;
-    min-width: 350px;
     align-items: center;
     justify-content: center;
 }
@@ -696,6 +689,7 @@ h6 {
     background: #fff;
     box-shadow: 0 10px 29px 0 #545b62;
     transition: all 0.3s ease-in-out;
+
     height: 270px;
 }
 
