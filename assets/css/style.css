@@ -386,16 +386,8 @@ h6 {
     position: relative;
     /* background: url("../img/intro-bg.png") center bottom no-repeat;*/
     background-size: cover;
-    padding: 350px 0 220px 0;
-}
-
-.intro-img {
-    -webkit-transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
-    -moz-transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
-    transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
-    min-height: 76px;
-    min-width: 150.25px;
-    z-index: 999;
+    /*padding: 350px 0 220px 0;*/
+    min-height: 100vh;
 }
 
 #intro .container {
@@ -410,19 +402,18 @@ h6 {
 
 @media (max-width: 991px) {
     #intro {
-        padding: 140px 0 60px 0;
+        height: auto;
+        padding: 0px;
     }
     #intro .container {
         flex-direction: column;
-    }
-    #intro .intro-img {
-        top: 0px;
     }
 }
 
 @media (max-width: 574px) {
     #intro {
-        padding: 200px 0 100px 0;
+        height: auto;
+        padding: 0px;
     }
     #intro .container {
         flex-direction: column;
@@ -433,10 +424,13 @@ h6 {
 }
 
 @media (max-width: 991px) {
+    #intro {
+        height: auto;
+        padding: 0px;
+    }
     #intro .intro-img {
-        width: 35%;
         float: none;
-        margin: 0 auto 25px auto;
+        padding: 10px;
     }
 }
 
@@ -452,11 +446,48 @@ h6 {
 }
 
 .intro-img-placeholder {
+    /*
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-grow: 1;
     justify-content: center;
     min-width: 400px;
+    position: relative;
+    */
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    position: relative;
+}
+
+.intro-img {
+    -webkit-transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
+    -moz-transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
+    transition: height 1s, width 1s, top 1s, left 1s, opacity 0.3s;
+    /*
+    min-height: 76px;
+    min-width: 150.25px;
+    z-index: 999;
+    margin-left: 200px;
+    margin-top: 100px;
+    */
+
+    grid-column: 5 / -1;
+    grid-row: 4/ 10;
+    width: 100%;
+}
+
+.intro-mascote {
+    /*
+    position: absolute;
+    z-index: 0;
+    */
+
+    grid-column: 1 / 10;
+    grid-row: 1/ 10;
+    padding-top: 20%;
+    z-index: 1;
 }
 
 .header-logo {
