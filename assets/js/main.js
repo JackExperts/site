@@ -149,7 +149,6 @@
         const intro_container_offset = $("#intro > div").offset();
         const $header = $(".header-logo");
         const $intro_image_container = $(".intro-img-placeholder");
-
         const isPositionAbsolute = $el.css("position") == "absolute";
 
         if ($(this).scrollTop() > intro_container_offset.top + 80 && !isPositionAbsolute) {
