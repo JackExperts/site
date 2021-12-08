@@ -152,7 +152,7 @@
 
         const isPositionAbsolute = $el.css("position") == "absolute";
 
-        if ($(this).scrollTop() > intro_container_offset.top + 100 && !isPositionAbsolute) {
+        if ($(this).scrollTop() > intro_container_offset.top + 80 && !isPositionAbsolute) {
             $header.append(
                 $(".intro-img").css({
                     top: 0,
@@ -169,7 +169,7 @@
             }, 0);
         }
 
-        if ($(this).scrollTop() < intro_container_offset.top + 100 && isPositionAbsolute) {
+        if ($(this).scrollTop() < intro_container_offset.top + 80 && isPositionAbsolute) {
             $el.css({ opacity: 0 });
 
             setTimeout(() => {
