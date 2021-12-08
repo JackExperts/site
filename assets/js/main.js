@@ -152,7 +152,7 @@
 
         const isPositionAbsolute = $el.css("position") == "absolute";
 
-        if ($(this).scrollTop() > intro_container_offset.top + 100 && !isPositionAbsolute) {
+        if ($(this).scrollTop() > intro_container_offset.top && !isPositionAbsolute) {
             $header.append(
                 $(".intro-img").css({
                     top: 0,
@@ -165,11 +165,10 @@
             );
 
             setTimeout(() => {
-                $el.css({ height: 76, width: 150.25, left: 1, "margin-top": 5, "margin-left": 10 });
+                $el.css({ height: 76, width: 150.25, left: 10 });
             }, 0);
         }
-
-        if ($(this).scrollTop() < intro_container_offset.top + 100 && isPositionAbsolute) {
+        if ($(this).scrollTop() < intro_container_offset.top && isPositionAbsolute) {
             $el.css({ opacity: 0 });
 
             setTimeout(() => {
