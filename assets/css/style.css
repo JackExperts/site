@@ -415,15 +415,12 @@ h6 {
 }
 
 .intro-img-placeholder {
-    /*
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-grow: 1;
     justify-content: center;
     min-width: 400px;
     position: relative;
-    */
-
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);

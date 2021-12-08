@@ -165,7 +165,7 @@
             );
 
             setTimeout(() => {
-                $el.css({ height: 76, width: 150.25, left: 1, "margin-top": 5, "margin-left": 10 });
+                $el.css({ height: 76, width: 150.25, left: 10 });
             }, 0);
         }
 
