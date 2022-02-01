@@ -37,8 +37,7 @@
     // Header scroll class
     $(window).scroll(function () {
         if ($(this).scrollTop() > 279) {
-            $("#header").addClass("header-scrolled");
-
+            //$("#header").addClass("header-scrolled");
             //$("#header").html('<img src="assets/img/jac/preto.png" alt="" class="img-fluid">');
         } else {
             $("#header").removeClass("header-scrolled");
