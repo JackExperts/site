@@ -1,11 +1,10 @@
-#generic_price_table{
-  min-height: 1000px;
-}
+#generic_price_table{}
 
 /*PRICE COLOR CODE START*/
 #generic_price_table .generic_content{
   background-color: #fff;
   border: 1px solid #f0eded;
+  height: 100%;
 }
 
 #generic_price_table .generic_content .generic_head_price{
