@@ -1,6 +1,5 @@
 /* ==========================================================================
    Jack Experts — interações e motion (JavaScript puro).
-   jQuery continua carregado apenas para o formoid (formulário de contato).
    ========================================================================== */
 (function () {
     "use strict";

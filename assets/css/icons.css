@@ -52,8 +52,6 @@
 .fa-linkedin { --jack-icon: url("../img/icons/ui/linkedin.svg"); }
 .fa-instagram { --jack-icon: url("../img/icons/ui/instagram.svg"); }
 .fa-youtube-play { --jack-icon: url("../img/icons/ui/youtube-play.svg"); }
-.btn.btn-loading .fa { --jack-icon: url("../img/icons/ui/spinner.svg"); }
-.btn.btn-loading .fa::before { content: ""; }
 .plan__features li::before {
   content: "";
   width: 1em;

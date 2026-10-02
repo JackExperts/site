@@ -1380,20 +1380,6 @@ section[id],
     filter: grayscale(0.3);
 }
 
-/* Estado de envio (classe aplicada pelo formoid) */
-.btn.btn-loading {
-    pointer-events: none;
-    opacity: 0.8;
-}
-
-.btn.btn-loading .fa {
-    animation: spin 0.8s linear infinite;
-}
-
-.btn.btn-loading .fa::before {
-    content: "\f110";
-}
-
 /* --------------------------------------------------------------------------
    Páginas internas
    -------------------------------------------------------------------------- */
