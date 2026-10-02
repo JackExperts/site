@@ -1,0 +1,35 @@
+{
+  "source": "Transcribed from the existing cookies.png; policy statements have not been revalidated or changed.",
+  "columns": [
+    "Cookie",
+    "Descrição",
+    "Duração",
+    "Tipo"
+  ],
+  "rows": [
+    [
+      "_ga",
+      "Este cookie é instalado pelo Google Analytics. O cookie é usado para calcular dados de visitantes, sessões, campanhas e acompanhar o uso do site no relatório de análise do site. Os cookies armazenam informações anonimamente e atribuem um número gerado aleatoriamente para identificar visitantes únicos.",
+      "2 anos",
+      "Google Analytics"
+    ],
+    [
+      "_gid",
+      "Este cookie é instalado pelo Google Analytics. O cookie é usado para armazenar informações de como os visitantes usam um site e ajuda na criação de um relatório de análise de como o site website está indo. Os dados coletados, incluindo o número de visitantes, a origem de onde eles vieram e as páginas foram exibidas de forma anônima.",
+      "1 dia",
+      "Google Analytics"
+    ],
+    [
+      "_gat_UA-135468158-1",
+      "Este é um cookie do tipo padrão definido pelo Google Analytics, em que o elemento do padrão no nome contém o número de identidade exclusivo da conta ou site ao qual se relaciona. Parece ser uma variação do cookie _gat, usada para limitar a quantidade de dados registrados pelo Google em sites de alto volume de tráfego.",
+      "1 minuto",
+      "Google Analytics"
+    ],
+    [
+      "lang",
+      "Esse cookie é usado para armazenar as preferências de idioma de um usuário para exibir conteúdo nesse idioma armazenado na próxima vez que o usuário visitar o site.",
+      "",
+      "Funcional"
+    ]
+  ]
+}

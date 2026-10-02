@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -7,686 +7,530 @@
         <title>Jack Experts</title>
         <meta name="keywords" content="kubernetes,k8s,cloud,container,docker, consultoria" />
         <meta name="description" content="Empresa especializada em Cloud Native e Kubernetes com DNA DevOps." />
+        <meta name="theme-color" content="#f5b919" />
+        <script>document.documentElement.className += " js";</script>
+
         <!-- Favicons -->
-        <link href="assets/img/favicon.ico" rel="icon" />
+        <link href="assets/img/favicon.ico?v=3" rel="icon" sizes="16x16 32x32 48x48 64x64 128x128 256x256" />
+        <link href="assets/img/favicon.svg?v=3" rel="icon" type="image/svg+xml" sizes="any" />
+        <link href="assets/img/apple-touch-icon.png?v=3" rel="apple-touch-icon" sizes="180x180" />
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Montserrat:wght@500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-        <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
-        <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
-        <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
-
-        <!-- Template Main CSS File -->
         <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/css/icons.css" rel="stylesheet" />
+        <link href="assets/css/visual-assets.css" rel="stylesheet" />
     </head>
 
     <body>
-        <!-- ======= Header ======= -->
+        <div class="scroll-progress" aria-hidden="true"></div>
 
-        <header id="header" class="fixed-top">
-            <div class="container">
-                <nav class="main-nav float-right d-none d-lg-block">
+        <!-- ======= Header ======= -->
+        <header class="site-header">
+            <div class="wrap">
+                <a href="index.html" class="brand" aria-label="Jack Experts, página inicial">
+                    <img src="assets/img/jac/preto.png" alt="Jack Experts" width="83" height="42" />
+                </a>
+
+                <button type="button" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <nav class="nav" id="site-nav" aria-label="Principal">
                     <ul>
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="price.html">Planos</a></li>
-                        <li><a href="https://www.gita.cloud" target="_blank">Gita Kubernetes</a></li>
-
-                        <li class="drop-down">
-                            <a href="">+</a>
-                            <ul>
-                                <!-- <li> <a href="https://treinamento.jackexperts.com.br/" target="_blank">Treinamentos</a></li> -->
-                                <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank">Lives e Vídeos</a></li>
-                                <li class="drop-down">
-                                          <a href="#">Redes Sociais</a>
-                                          <ul>
-                                              <li><a href="https://www.instagram.com/jackexperts/" class="instagram"><i class="fa fa-instagram"></i> Instagram</a></li>
-                                              <li><a href="https://br.linkedin.com/company/jacexperts" class="linkedin"><i class="fa fa-linkedin"></i> Linkedin</a></li>
-                                              <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" class="youtube"><i class="fa fa-youtube"></i> YouTube</a> </li>
-                                          </ul>
+                        <li><a href="https://www.gita.cloud" target="_blank" rel="noopener" class="ext">Gita Kubernetes</a></li>
+                        <li class="has-sub">
+                            <button type="button" class="sub-toggle" aria-expanded="false" aria-label="Mais opções">+ <i class="fa fa-angle-down"></i></button>
+                            <ul class="sub">
+                                <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank" rel="noopener"><i class="fa fa-play-circle"></i> Lives e Vídeos</a></li>
+                                <li class="has-sub">
+                                    <button type="button" class="sub-toggle" aria-expanded="false"><i class="fa fa-angle-left"></i> Redes Sociais</button>
+                                    <ul class="sub">
+                                        <li><a href="https://www.instagram.com/jackexperts/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                        <li><a href="https://br.linkedin.com/company/jacexperts" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i> YouTube</a></li>
+                                    </ul>
                                 </li>
-                                <li><a href="politica.html">Política de Privacidade</a></li>
+                                <li><a href="politica.html"><i class="fa fa-lock"></i> Política de Privacidade</a></li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
-                <!-- .main-nav -->
-            </div>
-            <div class="header-logo"></div>
-        </header>
-        <!-- #header -->
 
-        <!-- ======= Intro Section ======= -->
-        <section id="intro" class="clearfix">
-            <div class="container">
-                <div class="intro-img-placeholder">
-                   
-                    <div class="intro-img">
-                        <img src="assets/img/jac/preto.png" alt="" class="intro-img-img img-fluid"/>
-                    </div>   
-                    <div class="intro-mascote">
-                        <img src="assets/img/jac/mascote.png" alt="" class="intro-img-mascote img-fluid" />
+                <a href="#contact" class="btn btn--sm header-cta">Fale conosco</a>
+            </div>
+        </header>
+
+        <!-- ======= Intro / Hero ======= -->
+        <section class="hero" id="intro">
+            <div class="wrap hero__grid">
+                <div class="hero__copy">
+                    <span class="eyebrow" data-reveal>Cloud Native &amp; Kubernetes com DNA DevOps</span>
+
+                    <h1>
+                        Um time de especialistas em<br />
+                        <span class="typed" data-typewriter='["Kubernetes", "Rancher", "CI/CD", "Cloud Native", "Observabilidade", "Containers"]'><span class="typed__text">Kubernetes</span><span class="cursor" aria-hidden="true"></span></span><br />
+                        para apoiar o seu negócio.
+                    </h1>
+
+                    <p class="hero__lead" data-reveal style="--d: 0.1s">Kubernetes, DevOps, Infra as Code e Computação em Nuvem. Consultoria, serviços e treinamentos. Sob medida. Simples assim.</p>
+
+                    <div class="hero__cta" data-reveal style="--d: 0.2s">
+                        <a href="#contact" class="btn">Fale com a Jack <i class="fa fa-arrow-right"></i></a>
+                        <a href="https://academy.jackexperts.com" class="btn btn--ghost">Conheça o curso</a>
+                    </div>
+
+                    <ul class="hero__stats" data-stagger="0.08">
+                        <li><strong><span data-count="54">54</span></strong><span>Empresas satisfeitas</span></li>
+                        <li><strong><span data-count="32">32</span></strong><span>Especialistas</span></li>
+                        <li><strong>+20</strong><span>Anos de experiência em projetos de TI</span></li>
+                    </ul>
+                </div>
+
+                <div class="hero__art" aria-hidden="true">
+                    <div class="hero__blob" data-reveal="pop"></div>
+                    <div class="mascot" data-reveal="pop" style="--d: 0.1s"><img src="assets/img/jac/mascote.png" alt="" width="440" height="440" /></div>
+
+                    <div
+                        class="win term"
+                        data-reveal
+                        style="--d: 0.35s"
+                        data-terminal='[
+                            {"cmd": "whoami"},
+                            {"out": "jack-experts", "cls": "ok"},
+                            {"cmd": "cat foco.txt"},
+                            {"out": "Cloud Native · Kubernetes · DevOps", "cls": "dim"}
+                        ]'
+                    >
+                        <div class="win__bar win__bar--dark">
+                            <span class="win__dots"><i></i><i></i><i></i></span>
+                            <span class="win__title">~/jack — bash</span>
+                        </div>
+                        <div class="win__body"></div>
+                    </div>
+
+                    <div class="badge-float" data-reveal="right" style="--d: 0.5s">
+                        <i class="fa fa-check"></i>
+                        <span><strong>Cloud Native</strong>premissas da CNCF</span>
                     </div>
                 </div>
-                <div class="intro-info">
-                    <h2>
-                        Um time de especialistas em <br /><span>Kubernetes</span>
+            </div>
 
-                        <br />para apoiar o seu negócio.
-                    </h2>
+            <div class="trust">
+                <div class="wrap"><p class="trust__label">Clientes de consultorias, treinamentos, suporte e operação</p></div>
+                <div class="marquee" aria-hidden="true">
+                    <div class="marquee__track">
+                        <img src="assets/img/logos/aditum.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/amm-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/anatel.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/atlas.svg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/chefs.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/cieb.svg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/clinicarx.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/cognyte.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/cotabest-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/darede.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/dnx.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/ebc.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/globalweb.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/groupsoftware.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/gwcloud-logo.svg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/hepta.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/hex.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/houpa.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/intelit.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/ios.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/jpvtech-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/laura.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/luiza-labs-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/money-cloud.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/nazajon_ERP.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/nutricash.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/rnp.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/saveincloud-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/sebrae.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/sefin.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/techdog.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/TeleWorld.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/valid.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/visent.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/Wise-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/weg.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/zaffari-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/zg-solucoes.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/aditum.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/amm-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/anatel.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/atlas.svg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/chefs.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/cieb.svg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/clinicarx.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/cognyte.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/cotabest-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/darede.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/dnx.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/ebc.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/globalweb.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/groupsoftware.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/gwcloud-logo.svg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/hepta.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/hex.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/houpa.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/intelit.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/ios.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/jpvtech-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/laura.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/luiza-labs-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/money-cloud.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/nazajon_ERP.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/nutricash.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/rnp.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/saveincloud-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/sebrae.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/sefin.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/techdog.jpeg" alt="" loading="lazy" />
+                        <img src="assets/img/logos/TeleWorld.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/valid.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/visent.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/Wise-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/weg.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/zaffari-logo.png" alt="" loading="lazy" />
+                        <img src="assets/img/logos/zg-solucoes.png" alt="" loading="lazy" />
+                    </div>
                 </div>
             </div>
         </section>
+
         <main id="main">
-            <!-- ======= About Section ======= -->
-            <section id="about">
-                <div class="container">
-                    <header class="section-header">
-                        <h3>Sobre nós</h3>
-                        <p>Somos a <b>Jack Experts</b>. E o que é isso?</p>
+            <!-- ======= Sobre nós ======= -->
+            <section id="about" class="section">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Quem somos</span>
+                        <h2 data-split>Sobre <span class="hl">nós</span></h2>
+                        <p data-reveal>Somos a <b>Jack Experts</b>. E o que é isso?</p>
                     </header>
 
-                    <div class="row about-container">
-                        <div class="col-lg-6 content order-lg-1 order-2">
-                            <p>
-                                Apoiamos empresas e negócios
-                                <b>E adoramos fazer isto!</b>
-                                <br /><br />Nós trabalhamos com <b>Cloud Native</b> e as premissas da CNCF por acreditar que portabilidade e transparência são
-                                melhor caminho para nossos clientes seguirem na nuvem.
+                    <div class="about-grid">
+                        <div>
+                            <p class="about-intro" data-reveal>
+                                Apoiamos empresas e negócios <b>E adoramos fazer isto!</b><br /><br />
+                                Nós trabalhamos com <mark><b>Cloud Native</b></mark> e as premissas da CNCF por acreditar que portabilidade e transparência são melhor caminho
+                                para nossos clientes seguirem na nuvem.
                             </p>
-                            <h4>Focamos em:</h4>
-                            <div class="icon-box wow fadeInUp">
-                                <div class="icon"><i class="fa fa-window-restore"></i></div>
-                                <h4 class="title"><a href="">Da VM para o Container</a></h4>
-                                <p class="description">
-                                    Nós avaliamos sua aplicação e migramos ela do modelo VM (Virtual Machine) para o modelo Docker, seguindo as boas práticas e
-                                    pensando sempre em estabilidade e controle.
-                                </p>
-                            </div>
 
-                            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="icon"><i class="fa fa-ship"></i></div>
-                                <h4 class="title"><a href="">Do Docker para o Kubernetes</a></h4>
-                                <p class="description">
-                                    Uma vez que sua aplicação já foi migrada para o modelo de containers nós adaptamos sua aplicação para rodar em ambientes
-                                    Kubernentes, sendo compatível com Clusters K8S Cloud Native Certified. E implantamos e operamos o cluster kubernetes. 
-                                </p>
-                            </div>
-
-                            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="icon"><i class="fa fa-rocket"></i></div>
-                                <h4 class="title"><a href="">Construímos sua esteira CI/CD</a></h4>
-                                <p class="description">
-                                    Construímos sua esteira de entrega do Commit ao Deploy no Kubernetes. A esteira vai ser construída a quatro mãos, levando em
-                                    conta seus testes, ambientes e trazendo sugestões e nossa experiência para o seu CI/CD
-                                </p>
-                            </div>
-                            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="icon"><i class="fa fa-bar-chart"></i></div>
-                                <h4 class="title"><a href="">Observabilidade</a></h4>
-                                <p class="description">
-                                    Fazemos o levantamento das necessidades e escrevemos o plano para implantação da observabilidade e automação alinhado às
-                                    necessidades de negócio.
-                                </p>
-                            </div>
-                            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="icon"><i class="fa fa-book"></i></div>
-                                <h4 class="title"><a href="">Treinamento</a></h4>
-                                <p class="description">
-                                    Nossos treinamentos tem como principal foco a prática e a autonomia, mas sem deixar a teoria e o fundamento de lado. Nosso
-                                    material de Kubernetes, Helm E Observabilidade é 100% prático. SEMPRE FAZEMOS PASSAGEM DE CONHECIMENTO NOS PROJETOS.
-                                </p>
-                            </div>
+                            <h3 class="focus-title" data-reveal>Focamos em:</h3>
+                            <ul class="focus-list" data-stagger="0.08">
+                                <li class="focus-item">
+                                    <div class="focus-item__icon"><i class="fa fa-window-restore"></i></div>
+                                    <div>
+                                        <h3>Da VM para o Container</h3>
+                                        <p>
+                                            Nós avaliamos sua aplicação e migramos ela do modelo VM (Virtual Machine) para o modelo Docker, seguindo as boas práticas e pensando
+                                            sempre em estabilidade e controle.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="focus-item">
+                                    <div class="focus-item__icon"><i class="fa fa-ship"></i></div>
+                                    <div>
+                                        <h3>Do Docker para o Kubernetes</h3>
+                                        <p>
+                                            Uma vez que sua aplicação já foi migrada para o modelo de containers nós adaptamos sua aplicação para rodar em ambientes Kubernentes,
+                                            sendo compatível com Clusters K8S Cloud Native Certified. E implantamos e operamos o cluster kubernetes.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="focus-item">
+                                    <div class="focus-item__icon"><i class="fa fa-rocket"></i></div>
+                                    <div>
+                                        <h3>Construímos sua esteira CI/CD</h3>
+                                        <p>
+                                            Construímos sua esteira de entrega do Commit ao Deploy no Kubernetes. A esteira vai ser construída a quatro mãos, levando em conta seus
+                                            testes, ambientes e trazendo sugestões e nossa experiência para o seu CI/CD
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="focus-item">
+                                    <div class="focus-item__icon"><i class="fa fa-bar-chart"></i></div>
+                                    <div>
+                                        <h3>Observabilidade</h3>
+                                        <p>
+                                            Fazemos o levantamento das necessidades e escrevemos o plano para implantação da observabilidade e automação alinhado às necessidades
+                                            de negócio.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="focus-item">
+                                    <div class="focus-item__icon"><i class="fa fa-book"></i></div>
+                                    <div>
+                                        <h3>Treinamento</h3>
+                                        <p>
+                                            Nossos treinamentos tem como principal foco a prática e a autonomia, mas sem deixar a teoria e o fundamento de lado. Nosso material de
+                                            Kubernetes, Helm E Observabilidade é 100% prático.
+                                        </p>
+                                        <span class="caps-note">SEMPRE FAZEMOS PASSAGEM DE CONHECIMENTO NOS PROJETOS.</span>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
 
-                        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                            <img src="assets/img/about-img.svg" class="img-fluid" alt="" />
+                        <aside class="about-aside" data-reveal="right">
+                            <div class="win">
+                                <div class="win__body">
+                                    <img src="assets/img/about-img.svg" alt="Ilustração de uma equipe trabalhando" width="1138" height="860" />
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+
+                    <div class="how">
+                        <div class="how__art win" data-reveal="left">
+                            <div class="win__body">
+                                <img src="assets/img/about-extra-1.svg" alt="Ilustração do processo de descoberta" loading="lazy" />
+                            </div>
+                        </div>
+                        <div data-reveal="right">
+                            <h3>Como trabalhamos?</h3>
+                            <p class="step" data-step="1">
+                                <span>Primeiro fazemos uma entrevista inicial de descoberta. Na sequência, fazemos um assesstement no ambiente e nos processos para definirmos as
+                                necessidades e os caminhos a serem seguidos.</span>
+                            </p>
+                            <p class="step" data-step="2">
+                                <span>Com a realidade mapeada, a quatro mãos (em conjunto com o cliente) criamos o plano de ação. Ai sim, depois disso, chegamos a uma ordem de
+                                grandeza de esforço e prazo.</span>
+                            </p>
                         </div>
                     </div>
 
-                    <div class="row about-extra">
-                        <div class="col-lg-6 wow fadeInUp">
-                            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="" />
+                    <div class="how how--reverse">
+                        <div class="how__art win" data-reveal="right">
+                            <div class="win__body">
+                                <img src="assets/img/about-extra-2.svg" alt="Ilustração do dia a dia ágil" loading="lazy" />
+                            </div>
                         </div>
-                        <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-                            <h4>Como trabalhamos?</h4>
-                            <p>
-                                Primeiro fazemos uma entrevista inicial de descoberta. Na sequência, fazemos um assesstement no ambiente e nos processos para
-                                definirmos as necessidades e os caminhos a serem seguidos.
-                            </p>
-                            <p>
-                                Com a realidade mapeada, a quatro mãos (em conjunto com o cliente) criamos o plano de ação. Ai sim, depois disso, chegamos a uma
-                                ordem de grandeza de esforço e prazo.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="row about-extra">
-                        <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-                            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="" />
-                        </div>
-
-                        <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-                            <h4>E o dia a dia?</h4>
-                            <p>
-                                Somos adeptos ao Agile, Scrum e Kanban. Controlamos nossas demandas, atividades e projetos de uma forma ágil e auto sustentada.
-                            </p>
+                        <div data-reveal="left">
+                            <h3>E o dia a dia?</h3>
+                            <p>Somos adeptos ao Agile, Scrum e Kanban. Controlamos nossas demandas, atividades e projetos de uma forma ágil e auto sustentada.</p>
                             <p>Contudo, em clientes que seguem ITIL, respeitamos e seguimos todas as disciplinas.</p>
                             <p>E, sempre, documentamos e alinhamos constantemente nossas atividades e tarefas.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
 
-            <!-- ======= Services Section ======= -->
-            <section id="services" class="section-bg">
-                <div class="container">
-                    <header class="section-header">
-                      <br>
-                        <h3>Áreas de Atuação</h3>
-                          <br>  <br>
-                        <!--
-          <p>Desenhamos, planejamos e implantamos diferenciais para o seu negócio.</p>
-        -->
+            <!-- ======= Áreas de Atuação ======= -->
+            <section id="services" class="section section--soft">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>O que fazemos</span>
+                        <h2 data-split>Áreas de <span class="hl">Atuação</span></h2>
                     </header>
 
-                    <div class="row">
-                        <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-                            <div class="box">
-                                <div class="icon"><img src=assets/img/icones/005-aprender.png></div>
-                                <h4 class="title"><a href="">DevOps como Serviço </a></h4>
-                                <p class="description">
-                                    Apoiamos seu time de desenvolvimento sob demanda. Deixe conosco o CI/CD, administração da cloud, kubernetes e containers :)
-                                    <br />
-                                    E pague conforme o uso.
-                                </p>
+                    <div class="services-grid" data-stagger="0.12" data-stagger-type="pop">
+                        <article class="win service">
+                            <div class="win__body">
+                                <div class="service__icon"><img src="assets/img/icones/005-aprender.png" alt="" /></div>
+                                <div>
+                                    <h3>DevOps como Serviço</h3>
+                                    <p>Apoiamos seu time de desenvolvimento sob demanda. Deixe conosco o CI/CD, administração da cloud, kubernetes e containers :)<br />E pague conforme o uso.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
-                            <div class="box">
-                                <div class="icon"><img src=assets/img/icones/017-api.png></div>
-                                <h4 class="title"><a href="">Kubernetes </a></h4>
-                                <p class="description">
-                                    Projetamos ambientes, implantamos, operamos e sustentamos clusters kubernetes de diversas distribuições e provedores. Temos
-                                    experiência real para apoiar sua equipe em desenvolvimento, homologação e produção.
-                                </p>
-                            </div>
-                        </div>
+                        </article>
 
-                        <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                            <div class="box">
-                                <div class="icon"><img src=assets/img/icones/001-estude.png></div>
-                                <h4 class="title"><a href="">Cursos e oficinas </a></h4>
-                                <p class="description">
-                                    Construímos treinamentos sob medida para nossos clientes, estilo hands on.
-                                    <br />
-                                    Prática em ambiente real.
-                                </p>
+                        <article class="win service">
+                            <div class="win__body">
+                                <div class="service__icon"><img src="assets/img/icones/017-api.png" alt="" /></div>
+                                <div>
+                                    <h3>Kubernetes</h3>
+                                    <p>
+                                        Projetamos ambientes, implantamos, operamos e sustentamos clusters kubernetes de diversas distribuições e provedores. Temos experiência real para
+                                        apoiar sua equipe em desenvolvimento, homologação e produção.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                            <div class="box">
-                                <div class="icon"><img src=assets/img/icones/013-programas.png></div>
-                                <h4 class="title"><a href="">Observabilidade</a></h4>
-                                <p class="description">
-                                    Projetamos, apoiamos e mantemos. Desenvolvemos Integrações com ChatBots, Ansible, IA e Mensageria.
-                                    <br />
-                                    Centralizamos logs e aplicamos alertas.
-                                </p>
+                        </article>
+
+                        <article class="win service">
+                            <div class="win__body">
+                                <div class="service__icon"><img src="assets/img/icones/001-estude.png" alt="" /></div>
+                                <div>
+                                    <h3>Cursos e oficinas</h3>
+                                    <p>Construímos treinamentos sob medida para nossos clientes, estilo hands on.<br />Prática em ambiente real.</p>
+                                </div>
                             </div>
-                        </div>
+                        </article>
+
+                        <article class="win service">
+                            <div class="win__body">
+                                <div class="service__icon"><img src="assets/img/icones/013-programas.png" alt="" /></div>
+                                <div>
+                                    <h3>Observabilidade</h3>
+                                    <p>Projetamos, apoiamos e mantemos. Desenvolvemos Integrações com ChatBots, Ansible, IA e Mensageria.<br />Centralizamos logs e aplicamos alertas.</p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>
-            <!-- End Services Section -->
-            <!-- ======= Why Us Section ======= -->
-            <section id="why-us" class="wow fadeIn">
-                <div class="container">
-                    <header class="section-header">
-                        <h3>Porque escolher-nos?</h3>
-                        <p>
-                            Somos uma empresa especializada em Cloud Native, Infra as Code e DevOps. Levamos sua App para nuvem e criamos sua pipeline CI/CD.
-                            <br /><br />Nosso time conta com profissionais com mais de 20 anos de experiência em projetos de TI em setores governamentais e
-                            privados. <br /><br />Temos experiência real para ajudá-lo.
-                        </p>
+
+            <!-- ======= Por que nós ======= -->
+            <section id="why-us" class="section section--dark">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Por que a Jack</span>
+                        <h2 data-split>Porque <span class="hl">escolher-nos?</span></h2>
                     </header>
 
+                    <div class="why-text" data-reveal>
+                        <p>Somos uma empresa especializada em Cloud Native, Infra as Code e DevOps. Levamos sua App para nuvem e criamos sua pipeline CI/CD.</p>
+                        <p>Nosso time conta com profissionais com mais de 20 anos de experiência em projetos de TI em setores governamentais e privados.</p>
+                        <p class="big">Temos experiência real para ajudá-lo.</p>
+                    </div>
 
-
-                    <div class="row counters">
-                        <div class="col-lg-3 col-6 text-center">
-                            <span data-toggle="counter-up">54</span>
+                    <div class="counters" data-stagger="0.1" data-stagger-type="pop">
+                        <div class="counter" data-label="clientes.log">
+                            <span class="counter__num" data-count="54">54</span>
                             <p>Empresas satisfeitas</p>
                         </div>
-                        
-                        <div class="col-lg-3 col-6 text-center">
-                            <span data-toggle="counter-up">720</span>
+                        <div class="counter" data-label="aulas.log">
+                            <span class="counter__num" data-count="720">720</span>
                             <p>Aulas/Treinamentos</p>
                         </div>
-
-                        <div class="col-lg-3 col-6 text-center">
-                            <span data-toggle="counter-up">33780</span>
+                        <div class="counter" data-label="horas.log">
+                            <span class="counter__num" data-count="33780">33.780</span>
                             <p>Horas de Suporte / Consultorias</p>
                         </div>
-
-                        
-                        <div class="col-lg-3 col-6 text-center">
-                            <span data-toggle="counter-up">32</span>
+                        <div class="counter" data-label="time.log">
+                            <span class="counter__num" data-count="32">32</span>
                             <p>Especialistas</p>
                         </div>
                     </div>
 
-                    <header class="section-footer">
-                        <p align="center">*Dados apurados em 14/03/2023</p>
+                    <p class="footnote">*Dados apurados em 14/03/2023</p>
+                </div>
+            </section>
+
+            <!-- ======= Clientes ======= -->
+            <section id="clients" class="section">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Clientes</span>
+                        <h2 data-split>Confiança é <span class="hl">importante!</span></h2>
+                        <p data-reveal>Clientes de consultorias, treinamentos, suporte e operação.</p>
                     </header>
-                    	
 
-                </div>
-            </section>
-
-            <!-- ======= Testimonials Section =======
-    <section id="testimonials" class="section-bg">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Testimonials</h3>
-        </header>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-
-            <div class="owl-carousel testimonials-carousel wow fadeInUp">
-
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                </p>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>--><!-- End Testimonials Section -->
-
-            <!-- ======= Clients Section ======= -->
-            <section id="clients" class="section-bg">
-                <div class="container">
-                    <div class="section-header">
-                        <h3>Confiança é importante!</h3>
-                        <p>Clientes de consultorias, treinamentos, suporte e operação.</p>
-                    </div>
-
-                    <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/aditum.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/amm-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/anatel.jpeg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/atlas.svg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/chefs.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/cieb.svg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/clinicarx.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/cognyte.jpeg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/cotabest-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/darede.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/dnx.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/ebc.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/globalweb.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/groupsoftware.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/gwcloud-logo.svg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/hepta.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/hex.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/houpa.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/intelit.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/ios.jpeg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/jpvtech-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/laura.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/luiza-labs-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/money-cloud.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/nazajon_ERP.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/nutricash.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/rnp.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/saveincloud-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/sebrae.jpeg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/sefin.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/techdog.jpeg" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/TeleWorld.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/valid.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/visent.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/Wise-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/weg.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/zaffari-logo.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/logos/zg-solucoes.png" class="img-fluid" alt="" />
-                            </div>
-                        </div>
+                    <div class="logo-grid" data-stagger="0.035">
+                        <div class="logo-cell"><img src="assets/img/logos/aditum.png" alt="Aditum" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/amm-logo.png" alt="AMM" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/anatel.jpeg" alt="Anatel" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/atlas.svg" alt="Atlas" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/chefs.png" alt="Chefs" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/cieb.svg" alt="CIEB" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/clinicarx.png" alt="ClinicaRx" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/cognyte.jpeg" alt="Cognyte" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/cotabest-logo.png" alt="Cotabest" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/darede.png" alt="Darede" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/dnx.png" alt="DNX" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/ebc.png" alt="EBC" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/globalweb.png" alt="Globalweb" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/groupsoftware.png" alt="Group Software" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/gwcloud-logo.svg" alt="GW Cloud" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/hepta.png" alt="Hepta" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/hex.png" alt="Hex" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/houpa.png" alt="Houpa" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/intelit.png" alt="Intelit" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/ios.jpeg" alt="iOS" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/jpvtech-logo.png" alt="JPV Tech" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/laura.png" alt="Laura" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/luiza-labs-logo.png" alt="Luiza Labs" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/money-cloud.png" alt="Money Cloud" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/nazajon_ERP.png" alt="Nazajon ERP" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/nutricash.png" alt="Nutricash" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/rnp.png" alt="RNP" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/saveincloud-logo.png" alt="SaveInCloud" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/sebrae.jpeg" alt="Sebrae" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/sefin.png" alt="Sefin" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/techdog.jpeg" alt="Techdog" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/TeleWorld.png" alt="TeleWorld" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/valid.png" alt="Valid" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/visent.png" alt="Visent" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/Wise-logo.png" alt="Wise" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/weg.png" alt="WEG" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/zaffari-logo.png" alt="Zaffari" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/logos/zg-solucoes.png" alt="ZG Soluções" loading="lazy" /></div>
+                        <a href="#contact" class="logo-cell logo-cell--cta"><span>Sua empresa pode ser a próxima.</span><strong>Fale com a Jack <i class="fa fa-arrow-right"></i></strong></a>
                     </div>
                 </div>
             </section>
-            <!-- End Clients Section -->
 
-            <!-- ======= Contact Section ======= -->
-            <section id="contact">
-                <div class="container-fluid">
-                    <div class="section-header">
-                        <h3>Fale com a Jack!</h3>
-                    </div>
-                    <h3><p align="center">Use kubernetes e a cloud para acelerar sua inovação.<br> Conte com a Jack nessa caminhada. Entre em contato.</p></h3>
-                    <br><br><br>
-                    <div class="row wow fadeInUp">
-                        <div class="col-lg-6">
-                            <div class="map mb-4 mb-lg-0">
+            <!-- ======= Contato ======= -->
+            <section id="contact" class="section section--soft">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Contato</span>
+                        <h2 data-split>Fale com a <span class="hl">Jack!</span></h2>
+                    </header>
+                    <p class="contact-lead" data-reveal>Use kubernetes e a cloud para acelerar sua inovação.<br />Conte com a Jack nessa caminhada. Entre em contato.</p>
+
+                    <div class="contact-grid">
+                        <div data-reveal="left">
+                            <div class="contact-info">
+                                <div class="info-card info-card--wide">
+                                    <i class="fa fa-map-marker"></i>
+                                    <div><small>Endereço</small><p>SCRS 516, Bloco B, Nº 69<br />Asa Sul CEP: 70.381-525<br />Brasília/DF</p></div>
+                                </div>
+                                <div class="info-card info-card--wide">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <div><small>E-mail</small><p><a href="mailto:contato@jackexperts.com.br">contato@jackexperts.com.br</a></p></div>
+                                </div>
+                                <div class="info-card">
+                                    <i class="fa fa-phone"></i>
+                                    <div><small>Telefone</small><p><a href="tel:+5561999126854">+55 61 9 9912-6854</a></p></div>
+                                </div>
+                            </div>
+                            <div class="win map-win">
                                 <iframe
+                                    title="Mapa da Jack Experts"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.5304717145104!2d-47.93066788479423!3d-15.82869278902987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3beb136e5a39%3A0x9c8dfe201b0df034!2sJACK%20Experts!5e0!3m2!1spt-BR!2sbr!4v1635947314377!5m2!1spt-BR!2sbr"
-                                    frameborder="0"
-                                    style="border: 0; width: 100%; height: 312px"
+                                    loading="lazy"
                                     allowfullscreen
                                 ></iframe>
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-md-5 info">
-                                    <i class="ion-ios-location-outline"></i>
-                                    <p>SCRS 516, Bloco B, Nº 69 <br />Asa Sul CEP: 70.381-525 <br />Brasília/DF</p>
-                                </div>
-
-                                <div class="col-md-4 info">
-                                    <i class="ion-ios-email-outline"></i>
-                                    <p>contato@jackexperts.com.br</p>
-                                </div>
-                                <div class="col-md-3 info">
-                                    <i class="ion-ios-telephone-outline"></i>
-                                    <p>+55 61 9 9912-6854 | +55 61 9 9912-6854 </p>
-                                </div>
-                            </div>
-                            <div class="form" data-form-type="formoid">
+                        <div class="win form-win" data-reveal="right">
+                            <div class="win__body form" data-form-type="formoid">
+                                <h3 class="form-title">Envie sua mensagem</h3>
+                                <p class="form-sub">Conte sua necessidade e o nome da sua empresa. Respondemos em breve.</p>
                                 <form action="javascript:void(0);" data-form-title="Mobirise Form" class="php-email-form">
-                                    <input
-                                        type="hidden"
-                                        name="email"
-                                        data-form-email="true"
-                                        value="7D23IQ+NlYc8CLWW65abZMC+fPqeIbk5l5Jc9OJey5/Cn5AG3jbVz7Q7iEFb2p+6TyzBHNxrE5cEfsILRbO6WY8tHq5/NO8QK+Y37WP7yeVGW1LT3Tr3MXLI7SB6y3aC"
-                                    />
+                                    <input type="hidden" name="email" data-form-email="true" value="7D23IQ+NlYc8CLWW65abZMC+fPqeIbk5l5Jc9OJey5/Cn5AG3jbVz7Q7iEFb2p+6TyzBHNxrE5cEfsILRbO6WY8tHq5/NO8QK+Y37WP7yeVGW1LT3Tr3MXLI7SB6y3aC" />
                                     <div class="form-row">
-                                        <div class="form-group col-lg-6">
-                                            <input
-                                                type="text"
-                                                name="name"
-                                                placeholder="Seu nome"
-                                                data-form-field="Name"
-                                                required="required"
-                                                class="form-control"
-                                                id="name-header15-48"
-                                            />
-
-                                            <div class="validate"></div>
+                                        <div class="field">
+                                            <label for="name-header15-48">Nome</label>
+                                            <input type="text" name="name" placeholder="Seu nome" data-form-field="Name" required="required" class="form-control" id="name-header15-48" />
                                         </div>
-                                        <div class="form-group col-lg-6">
-                                            <input
-                                                type="email"
-                                                name="email"
-                                                placeholder="Seu endereço de e-mail"
-                                                data-form-field="Email"
-                                                required="required"
-                                                class="form-control"
-                                                id="email-header15-48"
-                                            />
-
-                                            <div class="validate"></div>
+                                        <div class="field">
+                                            <label for="email-header15-48">E-mail</label>
+                                            <input type="email" name="email" placeholder="Seu endereço de e-mail" data-form-field="Email" required="required" class="form-control" id="email-header15-48" />
                                         </div>
                                     </div>
-
-                                    <div class="form-group">
-                                        <textarea
-                                            name="message"
-                                            placeholder="Por favor informe sua necessidade em relação a consultoria e serviços e o nome da sua empresa"
-                                            data-form-field="Message"
-                                            class="form-control"
-                                            id="message-header15-48"
-                                        ></textarea>
-                                        <div class="validate"></div>
+                                    <div class="field">
+                                        <label for="message-header15-48">Mensagem</label>
+                                        <textarea name="message" placeholder="Por favor informe sua necessidade em relação a consultoria e serviços e o nome da sua empresa" data-form-field="Message" class="form-control" id="message-header15-48"></textarea>
                                     </div>
 
-                                    <div class="mb-3">
-                                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Em breve responderemos sua mensagem!</div>
-                                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                    </div>
-                                    <div class="text-center">
-                                        <button type="submit" title="Send Message">Enviar</button>
+                                    <div hidden="hidden" data-form-alert="" class="alert alert-success">Em breve responderemos sua mensagem!</div>
+                                    <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger"></div>
+
+                                    <div class="form-actions">
+                                        <span class="hint">$ enviar --para jack</span>
+                                        <button type="submit" title="Send Message" class="btn">Enviar <i class="fa fa-paper-plane"></i></button>
                                     </div>
                                 </form>
                             </div>
@@ -694,68 +538,56 @@
                     </div>
                 </div>
             </section>
-            <!-- End Contact Section -->
         </main>
-        <!-- End #main -->
 
         <!-- ======= Footer ======= -->
-        <footer id="why-us">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 footer-info">
-                            <h3>Jack Experts</h3>
-                            <p>
-                                Kubernetes, DevOps, Infra as Code e Computação em Nuvem.
-                                <br /><br />Consultoria, serviços e treinamentos. <br /><br />Sob medida. Simples assim.
-                            </p>
-                        </div>
+        <footer class="site-footer">
+            <div class="wrap">
+                <div class="footer-grid">
+                    <div>
+                        <h3>Jack <span>Experts</span></h3>
+                        <p>Kubernetes, DevOps, Infra as Code e Computação em Nuvem.</p>
+                        <p>Consultoria, serviços e treinamentos.</p>
+                        <p><strong>Sob medida. Simples assim.</strong></p>
+                    </div>
 
-                        <div class="col-md-6 footer-contact">
-                            <h4>Endereço</h4>
-                            <p>
-                                <br />SCRS 516, Bloco B, Nº 69 <br />Asa Sul CEP: 70.381-525 <br />Brasília/DF <br /><br /><b>CNPJ: 33.571.517/0001-90</b>
-                               <br> <strong>Phones:</strong> <br /> 
-                                +55 61 9 9912-6854
-                                <br /><strong>Email:</strong> contato@jackexperts.com<br />
-                            </p>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>
+                            SCRS 516, Bloco B, Nº 69<br />Asa Sul CEP: 70.381-525<br />Brasília/DF<br /><br />
+                            <b>CNPJ: 33.571.517/0001-90</b><br />
+                            <strong>Phones:</strong> +55 61 9 9912-6854<br />
+                            <strong>Email:</strong> <a href="mailto:contato@jackexperts.com">contato@jackexperts.com</a>
+                        </p>
+                    </div>
 
-                            <div class="social-links">
-                              <br><a href="https://twitter.com/jackexperts" target="_blank" class="twitter"><i class="fa fa-twitter"></i> Twitter</a>
-                              <br><a href="https://pt-br.facebook.com/pg/jackexperts" class="facebook"><i class="fa fa-facebook"></i> Facebook</a>
-                              <br><a href="https://www.instagram.com/jackexperts/" class="instagram"><i class="fa fa-instagram"></i> Instagram</a>
-                              <br><a href="https://br.linkedin.com/company/jacexperts" class="linkedin"><i class="fa fa-linkedin"></i> Linkedin</a>
-                              <br><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" class="youtube"><i class="fa fa-youtube"></i> YouTube</a>
-
-                                </div>
-                        </div>
+                    <div>
+                        <h4>Redes sociais</h4>
+                        <ul class="social-list">
+                            <li><a href="https://twitter.com/jackexperts" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            <li><a href="https://pt-br.facebook.com/pg/jackexperts" target="_blank" rel="noopener"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://www.instagram.com/jackexperts/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://br.linkedin.com/company/jacexperts" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i> YouTube</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="copyright">&copy; Copyright <strong>Jack Experts</strong>. All Rights Reserved</div>
+
+            <div class="statusbar">
+                <div class="wrap">
+                    <span>&copy; Copyright <strong>Jack Experts</strong>. All Rights Reserved</span>
+                    <span class="led-on">Brasília/DF · Cloud Native</span>
+                </div>
             </div>
         </footer>
-        <!-- End Footer -->
 
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <a href="#" class="back-to-top" aria-label="Voltar ao topo"><i class="fa fa-chevron-up"></i></a>
 
-        <!-- Vendor JS Files -->
+        <!-- jQuery é usado apenas pelo formoid (envio do formulário) -->
         <script src="assets/vendor/jquery/jquery.min.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-        <script src="assets/vendor/counterup/counterup.min.js"></script>
-        <script src="assets/vendor/mobile-nav/mobile-nav.js"></script>
-        <script src="assets/vendor/wow/wow.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-        <script src="assets/vendor/venobox/venobox.min.js"></script>
         <script src="assets/vendor/formoid/formoid.min.js"></script>
-
-        <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
-

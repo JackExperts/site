@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -7,556 +7,271 @@
         <title>Jack Experts</title>
         <meta name="keywords" content="kubernetes,k8s,cloud,container,docker,plans" />
         <meta name="description" content="Empresa especializada em Cloud Native e Kubernetes com DNA DevOps." />
+        <meta name="theme-color" content="#f5b919" />
+        <script>document.documentElement.className += " js";</script>
+
         <!-- Favicons -->
-        <link href="assets/img/favicon.ico" rel="icon" />
+        <link href="assets/img/favicon.ico?v=3" rel="icon" sizes="16x16 32x32 48x48 64x64 128x128 256x256" />
+        <link href="assets/img/favicon.svg?v=3" rel="icon" type="image/svg+xml" sizes="any" />
+        <link href="assets/img/apple-touch-icon.png?v=3" rel="apple-touch-icon" sizes="180x180" />
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Montserrat:wght@500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-        <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
-        <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
-        <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
-
-        <!-- Template Main CSS File -->
-        <link href="assets/css/price.css" rel="stylesheet" />
         <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/css/icons.css" rel="stylesheet" />
     </head>
 
-    <body>
-        <!-- ======= Header ======= -->
+    <body class="page-price">
+        <div class="scroll-progress" aria-hidden="true"></div>
 
-        <header id="header" class="fixed-top">
-            <div class="container">
-                <nav class="main-nav float-right d-none d-lg-block">
+        <!-- ======= Header ======= -->
+        <header class="site-header">
+            <div class="wrap">
+                <a href="index.html" class="brand" aria-label="Jack Experts, página inicial">
+                    <img src="assets/img/jac/preto.png" alt="Jack Experts" width="83" height="42" />
+                </a>
+
+                <button type="button" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <nav class="nav" id="site-nav" aria-label="Principal">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="price.html">Planos</a></li>
-                        <li><a href="https://www.gita.cloud/pt" target="_blank">Gita Kubernetes</a></li>
-
-
-                        <li class="drop-down">
-                            <a href="">+</a>
-                            <ul>
-                                <!-- <li> <a href="https://treinamento.jackexperts.com.br/" target="_blank">Treinamentos</a></li> -->
-                                <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank">Lives e Vídeos</a></li>
-                                <li class="drop-down">
-                                          <a href="#">Redes Sociais</a>
-                                          <ul>
-                                              <li><a href="https://www.instagram.com/jackexperts/" class="instagram"><i class="fa fa-instagram"></i> Instagram</a></li>
-                                              <li><a href="https://br.linkedin.com/company/jacexperts" class="linkedin"><i class="fa fa-linkedin"></i> Linkedin</a></li>
-                                              <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" class="youtube"><i class="fa fa-youtube"></i> YouTube</a> </li>
-                                          </ul>
+                        <li><a href="https://www.gita.cloud" target="_blank" rel="noopener" class="ext">Gita Kubernetes</a></li>
+                        <li class="has-sub">
+                            <button type="button" class="sub-toggle" aria-expanded="false" aria-label="Mais opções">+ <i class="fa fa-angle-down"></i></button>
+                            <ul class="sub">
+                                <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank" rel="noopener"><i class="fa fa-play-circle"></i> Lives e Vídeos</a></li>
+                                <li class="has-sub">
+                                    <button type="button" class="sub-toggle" aria-expanded="false"><i class="fa fa-angle-left"></i> Redes Sociais</button>
+                                    <ul class="sub">
+                                        <li><a href="https://www.instagram.com/jackexperts/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                        <li><a href="https://br.linkedin.com/company/jacexperts" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i> YouTube</a></li>
+                                    </ul>
                                 </li>
-                                <li><a href="politica.html">Política de Privacidade</a></li>
+                                <li><a href="politica.html"><i class="fa fa-lock"></i> Política de Privacidade</a></li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
-                <!-- .main-nav -->
-            </div>
-            <div class="header-logo"></div>
-        </header>
-        <!-- #header -->
 
-        <main id="main" style="margin-top: 80px;">
-            <!-- ======= About Section ======= -->
-            <section id="about">
-                <div class="container ">
-                    <header class="section-header">
-                        <h3>Escopo do Serviço</h3>
-                        <p>A Jack Experts atua na prestação de serviço especializado em Cloud Native e DevOps, com foco nos seguintes itens: </p>
+                <a href="#contact" class="btn btn--sm header-cta">Fale conosco</a>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- ======= Escopo do Serviço ======= -->
+            <section class="page-hero" id="about">
+                <div class="wrap">
+                    <span class="eyebrow" data-reveal>~/jack-experts/planos</span>
+                    <h1 data-type-once>Escopo do Serviço</h1>
+                    <p data-reveal style="--d: 0.3s">A Jack Experts atua na prestação de serviço especializado em Cloud Native e DevOps, com foco nos seguintes itens:</p>
+                </div>
+            </section>
+
+            <section class="section" style="padding-top: 30px">
+                <div class="wrap">
+                    <div class="scope-grid">
+                        <div class="win" data-reveal="left">
+                            <div class="win__body">
+                                <ul class="scope-list" data-stagger="0.07">
+                                    <li><i class="fa fa-window-restore"></i><span>Consultoria a conteinerização de aplicações</span></li>
+                                    <li><i class="fa fa-ship"></i><span>Consultoria e suporte a implantação de clusters Kubernetes</span></li>
+                                    <li><i class="fa fa-ship"></i><span>Consultoria e suporte a gerenciamento de clusters Kubernetes</span></li>
+                                    <li><i class="fa fa-archive"></i><span>Consultoria a empacotamento de aplicações</span></li>
+                                    <li><i class="fa fa-rocket"></i><span>Consultoria e implantação de esteiras de desenvolvimento de software (CI/CD)</span></li>
+                                    <li><i class="fa fa-code"></i><span>Consultoria no processo de desenvolvimento de software (pipeline de desenvolvimento)</span></li>
+                                    <li><i class="fa fa-desktop"></i><span>Consultoria em monitoramento de aplicações.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="win scope-art" data-reveal="right" style="--d: 0.15s">
+                            <img src="assets/img/plans/banner.jpg" alt="Banner dos serviços da Jack Experts" width="2000" height="2000" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ======= Tecnologias ======= -->
+            <section id="clients" class="section section--soft">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Stack</span>
+                        <h2 data-split><span class="hl">Tecnologias</span></h2>
+                        <p data-reveal>Algumas das tecnologias que trabalhamos.</p>
                     </header>
 
-                    <div class="row about-container">
-                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start w-100">
-                            <!-- <p>
-                                Apoiamos empresas e negócios
-                                <b>E adoramos fazer isto!</b>
-                                <br /><br />Nós trabalhamos com <b>Cloud Native</b> e as premissas da CNCF por acreditar que portabilidade e transparência são
-                                melhor caminho para nossos clientes seguirem na nuvem.
-                            </p>
-                            <h4>Focamos em:</h4> -->
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-window-restore" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria a conteinerização de aplicações</h4>
-                            </div>
-
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-ship" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria e suporte a implantação de clusters Kubernetes</h4>
-                            </div>
-
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-ship" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria e suporte a gerenciamento de clusters Kubernetes</h4>
-                            </div>
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-archive" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria a empacotamento de aplicações</h4>
-                            </div>
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-rocket" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria e implantação de esteiras de desenvolvimento de software (CI/CD)</h4>
-                            </div>
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-code" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria no processo de desenvolvimento de software (pipeline de desenvolvimento)</h4>
-                            </div>
-                            <div class="icon-box wow fadeInUp d-flex justify-content-center align-items-center">
-                                <div class="icon"><i class="fa fa-desktop" style="min-width: 80px;"></i></div>
-                                <h4 class="title" style="margin-left: 10px !important;">Consultoria em monitoramento de aplicações.</h4>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                            <img src="assets/img/plans/banner.jpg" class="img-fluid" alt="" />
-                        </div>
+                    <div class="logo-grid logo-grid--tech" data-stagger="0.04">
+                        <div class="logo-cell"><img src="assets/img/plans/rancher.png" alt="Rancher" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/kubernets.png" alt="Kubernetes" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/docker.png" alt="Docker" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/helm.png" alt="Helm" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/k3s.png" alt="K3s" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/longhorn.png" alt="Longhorn" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/letsencrypt.png" alt="Let's Encrypt" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/prometheus.png" alt="Prometheus" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/velero.png" alt="Velero" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/grafana.png" alt="Grafana" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/harbor.png" alt="Harbor" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/minio.png" alt="MinIO" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/rke.png" alt="RKE" loading="lazy" /></div>
+                        <div class="logo-cell"><img src="assets/img/plans/gitlab.png" alt="GitLab" loading="lazy" /></div>
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
-            <!-- ======= Tecnology Section ======= -->
-            <section id="clients" class="section-bg">
-                <div class="container">
-                    <div class="section-header">
-                        <h3>Tecnologias</h3>
-                        <p>Algumas das tecnologias que trabalhamos.</p>
-                    </div>
 
-                    <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/rancher.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
+            <!-- ======= Planos de contratação ======= -->
+            <section id="planos" class="section">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Planos</span>
+                        <h2 data-split>Planos de <span class="hl">contratação</span></h2>
+                        <p data-reveal>Conheça os nossos planos de contratação. Escolha o que melhor se adequa ao seu cenário.</p>
+                    </header>
 
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/kubernets.png" class="img-fluid" alt="" style="max-width: 100px"/>
+                    <div class="plans" data-stagger="0.1" data-stagger-type="pop">
+                        <article class="win plan">
+                            <div class="win__body">
+                                <div class="plan__head">
+                                    <span class="plan__tier plan__tier--bronze">Bronze</span>
+                                    <ul class="plan__price-list">
+                                        <li>2 Clusters <strong>Kubernetes</strong></li>
+                                        <li><strong>3 pacotes de APPs</strong> conteinerização, empacotamento e pipelines</li>
+                                    </ul>
+                                </div>
+                                <ul class="plan__features">
+                                    <li>Projeto de escopo fechado</li>
+                                    <li>Ponto de controle semanal</li>
+                                    <li>Kickoff direcionado</li>
+                                    <li>Feedback contínuo</li>
+                                    <li>Repasse de conhecimento</li>
+                                    <li>Documentação</li>
+                                </ul>
+                                <div class="plan__cta"><a class="btn btn--ghost" href="#contact">Contrate</a></div>
                             </div>
-                        </div>
+                        </article>
 
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/docker.png" class="img-fluid" alt="" style="max-width: 100px"/>
+                        <article class="win plan plan--featured">
+                            <div class="win__body">
+                                <div class="plan__head">
+                                    <span class="plan__tier plan__tier--prata">Prata</span>
+                                    <div class="plan__price"><span data-count="240">240</span><small>Horas</small></div>
+                                </div>
+                                <ul class="plan__features">
+                                    <li>Consumo flexível de horas</li>
+                                    <li>Flexibilidade de escopo</li>
+                                    <li>Alinhamento de atendimento</li>
+                                    <li>Acompanhamento do atendimento por ticket</li>
+                                </ul>
+                                <div class="plan__cta"><a class="btn" href="#contact">Contrate</a></div>
                             </div>
-                        </div>
+                        </article>
 
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/helm.png" class="img-fluid" alt=""  style="max-width: 100px"/>
+                        <article class="win plan">
+                            <div class="win__body">
+                                <div class="plan__head">
+                                    <span class="plan__tier plan__tier--ouro">Ouro</span>
+                                    <div class="plan__price"><span data-count="480">480</span><small>Horas</small></div>
+                                </div>
+                                <ul class="plan__features">
+                                    <li>Consumo flexível de horas</li>
+                                    <li>Flexibilidade de escopo</li>
+                                    <li>Alinhamento de atendimento</li>
+                                    <li>Acompanhamento do atendimento por ticket</li>
+                                    <li>Desconto no valor hora</li>
+                                </ul>
+                                <div class="plan__cta"><a class="btn btn--ghost" href="#contact">Contrate</a></div>
                             </div>
-                        </div>
+                        </article>
 
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/k3s.png" class="img-fluid" alt=""  style="max-width: 100px"/>
+                        <article class="win plan">
+                            <div class="win__body">
+                                <div class="plan__head">
+                                    <a class="plan__tier plan__tier--sic" href="https://saveincloud.com/pt/solucoes-cloud/cloud-containers/cloud-kubernetes/" title="Cloud Container Kubernetes" target="_blank" rel="noopener">Save in Cloud</a>
+                                    <p class="plan__offer">Oferta exclusiva para clientes SaveInCloud</p>
+                                </div>
+                                <ul class="plan__features">
+                                    <li>Clientes SaveInCloud</li>
+                                    <li>Consumo flexível de horas</li>
+                                    <li>Sustentação de ambientes Kubernetes</li>
+                                    <li>Apoio com monitoramento, centralização de logs e DevOps.</li>
+                                </ul>
+                                <div class="plan__cta"><a class="btn btn--ghost" href="#contact">Contrate</a></div>
                             </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/longhorn.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/letsencrypt.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/prometheus.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/velero.png" class="img-fluid" alt=""style="max-width: 100px"/>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/grafana.png" class="img-fluid" alt=""  style="max-width: 100px"/>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/harbor.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/minio.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/rke.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-xs-6">
-                            <div class="client-logo">
-                                <img src="assets/img/plans/gitlab.png" class="img-fluid" alt="" style="max-width: 100px"/>
-                            </div>
-                        </div>
+                        </article>
                     </div>
                 </div>
             </section>
-            <!-- End Tecnology Section -->
-            <div id="generic_price_table" class="container-fluid">   
-                <section>
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <!--PRICE HEADING START-->
-                                    <div class="price-heading clearfix">
-                                        <h1>Planos de contratação</h1>
-                                        <p>Conheça os nossos planos de contratação. Escolha o que melhor se adequa ao seu cenário.</p>
-                                    </div>
-                                    <!--//PRICE HEADING END-->
+
+            <!-- ======= Contato ======= -->
+            <section id="contact" class="section section--soft">
+                <div class="wrap">
+                    <header class="section-head">
+                        <span class="eyebrow" data-reveal>Contato</span>
+                        <h2 data-split>Fale com a <span class="hl">Jack!</span></h2>
+                    </header>
+                    <p class="contact-lead" data-reveal>Use kubernetes e a cloud para acelerar sua inovação.<br />Conte com a Jack nessa caminhada. Entre em contato.</p>
+
+                    <div class="contact-grid">
+                        <div data-reveal="left">
+                            <div class="contact-info">
+                                <div class="info-card info-card--wide">
+                                    <i class="fa fa-map-marker"></i>
+                                    <div><small>Endereço</small><p>SCRS 516, Bloco B, Nº 69<br />Asa Sul CEP: 70.381-525<br />Brasília/DF</p></div>
+                                </div>
+                                <div class="info-card info-card--wide">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <div><small>E-mail</small><p><a href="mailto:contato@jackexperts.com.br">contato@jackexperts.com.br</a></p></div>
+                                </div>
+                                <div class="info-card">
+                                    <i class="fa fa-phone"></i>
+                                    <div><small>Telefone</small><p><a href="tel:+5561999126854">+55 61 9 9912-6854</a></p></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="container">
-                            
-                            <!--BLOCK ROW START-->
-                            <div class="row">
-                                <div class="col-md-4" style="margin-top: 2rem;">
-                                
-                                <!--PRICE CONTENT START-->
-                                    <div class="generic_content clearfix">
-                                        
-                                        <!--HEAD PRICE DETAIL START-->
-                                        <div class="generic_head_price clearfix">
-                                        
-                                            <!--HEAD CONTENT START-->
-                                            <div class="generic_head_content clearfix">
-                                            
-                                            <!--HEAD START-->
-                                                <div class="head_bg"></div>
-                                                <div class="head">
-                                                    <span>Bronze</span>
-                                                </div>
-                                                <!--//HEAD END-->
-                                                
-                                            </div>
-                                            <!--//HEAD CONTENT END-->
-                                            
-                                            <!--PRICE START-->
-                                            <div class="generic_price_tag clearfix">  
-                                                <!-- <span class="price">
-                                                    <span class="sign">$</span>
-                                                    <span class="currency">99</span>
-                                                    <span class="cent">.99</span>
-                                                    <span class="month">/MON</span>
-                                                </span> -->
-                                                <span class="price" style="list-style: none;">
-                                                    <li>2 Clusters <strong>Kubernetes</strong></li>
-                                                    <li><strong>3 pacotes de APPs</strong> conteinerização, empacotamento e pipelines</li>
-                                                </span>
-                                                <!-- <ul style="list-style: none;" style="display: flex; align-items: center; justify-content: center;">
-                                                    <li>2 Clusters <strong>Kubernetes</strong></li>
-                                                    <li><strong>3 pacotes de APPs</strong> conteinerização, empacotamento e pipelines</li>
-                                                </ul> -->
-                                            </div>
-                                            <!--//PRICE END-->
-                                            
-                                        </div>                            
-                                        <!--//HEAD PRICE DETAIL END-->
-                                        
-                                        <!--FEATURE LIST START-->
-                                        <div class="generic_feature_list">
-                                            <ul>
-                                                <li>Projeto de escopo fechado</li>
-                                                <li>Ponto de controle semanal</li>
-                                                <li>Kickoff direcionado</li>
-                                                <li>Feedback contínuo</li>
-                                                <li>Repasse de conhecimento</li>
-                                                <li>Documentação</li>
-                                            </ul>
-                                        </div>
-                                        <!--//FEATURE LIST END-->
-                                        
-                                        <!--BUTTON START-->
-                                        <div class="generic_price_btn clearfix"  >
-                                            <a class="" href="#form-container">Contrate</a>
-                                        </div>
-                                        <!--//BUTTON END-->
-                                        
-                                    </div>
-                                    <!--//PRICE CONTENT END-->
-                                        
-                                </div>
-                                
-                                <div class="col-md-4" style="margin-top: 2rem;">
-                                
-                                <!--PRICE CONTENT START-->
-                                    <div class="generic_content active clearfix">
-                                        
-                                        <!--HEAD PRICE DETAIL START-->
-                                        <div class="generic_head_price clearfix">
-                                        
-                                            <!--HEAD CONTENT START-->
-                                            <div class="generic_head_content clearfix">
-                                            
-                                            <!--HEAD START-->
-                                                <div class="head_bg"></div>
-                                                <div class="head">
-                                                    <span>Prata</span>
-                                                </div>
-                                                <!--//HEAD END-->
-                                                
-                                            </div>
-                                            <!--//HEAD CONTENT END-->
-                                            
-                                            <!--PRICE START-->
-                                            <div class="generic_price_tag clearfix">  
-                                                <span class="price">
-                                                    <span class="currency">240</span>
-                                                    <span class="cent">Horas</span>
-                                                </span>
-                                            </div>
-                                            <!--//PRICE END-->
-                                            
-                                        </div>                            
-                                        <!--//HEAD PRICE DETAIL END-->
-                                        
-                                        <!--FEATURE LIST START-->
-                                        <div class="generic_feature_list">
-                                            <ul>
-                                                <li>Consumo flexível de horas</li>
-                                                <li>Flexibilidade de escopo</li>
-                                                <li>Alinhamento de atendimento</li>
-                                                <li>Acompanhamento do atendimento por ticket</li>
-                                            </ul>
-                                        </div>
-                                        <!--//FEATURE LIST END-->
-                                        
-                                        <!--BUTTON START-->
-                                        <div class="generic_price_btn clearfix">
-                                            <a class="" href="#form-container">Contrate</a>
-                                        </div>
-                                        <!--//BUTTON END-->
-                                        
-                                    </div>
-                                    <!--//PRICE CONTENT END-->
-                                        
-                                </div>
-                                <div class="col-md-4" style="margin-top: 2rem;">
-                                
-                                <!--PRICE CONTENT START-->
-                                    <div class="generic_content clearfix">
-                                        
-                                        <!--HEAD PRICE DETAIL START-->
-                                        <div class="generic_head_price clearfix">
-                                        
-                                            <!--HEAD CONTENT START-->
-                                            <div class="generic_head_content clearfix">
-                                            
-                                            <!--HEAD START-->
-                                                <div class="head_bg"></div>
-                                                <div class="head">
-                                                    <span>Ouro</span>
-                                                </div>
-                                                <!--//HEAD END-->
-                                                
-                                            </div>
-                                            <!--//HEAD CONTENT END-->
-                                            
-                                            <!--PRICE START-->
-                                            <div class="generic_price_tag clearfix">  
-                                                <span class="price">
-                                                    <span class="currency">480</span>
-                                                    <span class="cent">Horas</span>
-                                                </span>
-                                            </div>
-                                            <!--//PRICE END-->
-                                            
-                                        </div>                            
-                                        <!--//HEAD PRICE DETAIL END-->
-                                        
-                                        <!--FEATURE LIST START-->
-                                        <div class="generic_feature_list">
-                                            <ul>
-                                                <li>Consumo flexível de horas</li>
-                                                <li>Flexibilidade de escopo</li>
-                                                <li>Alinhamento de atendimento</li>
-                                                <li>Acompanhamento do atendimento por ticket</li>
-                                                <li>Desconto no valor hora</li>
-                                            </ul>
-                                        </div>
-                                        <!--//FEATURE LIST END-->
-                                        
-                                        <!--BUTTON START-->
-                                        <div class="generic_price_btn clearfix">
-                                            <a class="" href="#form-container">Contrate</a>
-                                        </div>
-                                        <!--//BUTTON END-->
-                                        
-                                    </div>
-                                    <!--//PRICE CONTENT END-->
-                                        
-                                </div>
-                                <div class="col-md-4" style="margin-top: 2rem;">
-                                
-                                    <!--PRICE CONTENT START-->
-                                        <div class="generic_content clearfix">
-                                            
-                                            <!--HEAD PRICE DETAIL START-->
-                                            <div class="generic_head_price clearfix">
-                                            
-                                                <!--HEAD CONTENT START-->
-                                                <div class="generic_head_content clearfix">
-                                                
-                                                <!--HEAD START-->
-                                                <div class="head_bg"></div>
-                                                <div class="head">
-                                                    <a href="https://saveincloud.com/pt/solucoes-cloud/cloud-containers/cloud-kubernetes/" title="Cloud Container Kubernetes">
-                                                        <span alt="Cloud Container Kubernetes">Save in Cloud</span>
-                                                    </a>
-                                                </div>
-                                                <!--//HEAD END-->
-                                                                                                    
-                                                </div>
-                                                <!--//HEAD CONTENT END-->
-                                                
-                                                <!--PRICE START-->
-                                                <div class="generic_price_tag clearfix">  
-                                                    <span class="price">
-                                                        <span class="cent">Oferta exclusiva para clientes SaveInCloud</span>
-                                                    </span>
-                                                </div>
-                                                <!--//PRICE END-->
-                                                
-                                            </div>                            
-                                            <!--//HEAD PRICE DETAIL END-->
-                                            
-                                            <!--FEATURE LIST START-->
-                                            <div class="generic_feature_list">
-                                                <ul>
-                                                    <li>Clientes SaveInCloud</li>
-                                                    <li>Consumo flexível de horas</li>
-                                                    <li>Sustentação de ambientes Kubernetes</li>
-                                                    <li>Apoio com monitoramento, centralização de logs e DevOps.</li>
-                                                </ul>
-                                            </div>
-                                            <!--//FEATURE LIST END-->
-                                            
-                                            <!--BUTTON START-->
-                                            <div class="generic_price_btn clearfix">
-                                                <a class="" href="#form-container">Contrate</a>
-                                            </div>
-                                            <!--//BUTTON END-->
-                                            
-                                        </div>
-                                        <!--//PRICE CONTENT END-->
-                                            
-                                    </div>
-                            </div>  
-                            <!--//BLOCK ROW END-->
-                            
-                        </div>
-                    </section>             
-            </div>
-             <!-- ======= Contact Section ======= -->
-             <section id="contact" >
-                <div class="container-fluid" id="form-container">
-                    <div class="section-header">
-                        <h3>Fale com a Jack!</h3>
-                    </div>
-                    <h3><p align="center">Use kubernetes e a cloud para acelerar sua inovação.<br> Conte com a Jack nessa caminhada. Entre em contato.</p></h3>
-                    <br><br><br>
-                    <div class="row wow fadeInUp">
-                        <div class="col-lg-6">
-                            <div class="map mb-4 mb-lg-0">
+                            <div class="win map-win">
                                 <iframe
+                                    title="Mapa da Jack Experts"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.5304717145104!2d-47.93066788479423!3d-15.82869278902987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3beb136e5a39%3A0x9c8dfe201b0df034!2sJACK%20Experts!5e0!3m2!1spt-BR!2sbr!4v1635947314377!5m2!1spt-BR!2sbr"
-                                    frameborder="0"
-                                    style="border: 0; width: 100%; height: 312px"
+                                    loading="lazy"
                                     allowfullscreen
                                 ></iframe>
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-md-5 info">
-                                    <i class="ion-ios-location-outline"></i>
-                                    <p>SCRS 516, Bloco B, Nº 69 <br />Asa Sul CEP: 70.381-525 <br />Brasília/DF</p>
-                                </div>
-
-                                <div class="col-md-4 info">
-                                    <i class="ion-ios-email-outline"></i>
-                                    <p>contato@jackexperts.com.br</p>
-                                </div>
-                                <div class="col-md-3 info">
-                                    <i class="ion-ios-telephone-outline"></i>
-                                    <p>+55 61 9 9912-6854 | +55 61 9 9912-6854 </p>
-                                </div>
-                            </div>
-                            <div class="form" data-form-type="formoid">
-                                <form action="javascript:void(0);" data-form-title="Mobirise Form" class="php-email-form" >
-                                    <input
-                                        type="hidden"
-                                        name="email"
-                                        data-form-email="true"
-                                        value="7D23IQ+NlYc8CLWW65abZMC+fPqeIbk5l5Jc9OJey5/Cn5AG3jbVz7Q7iEFb2p+6TyzBHNxrE5cEfsILRbO6WY8tHq5/NO8QK+Y37WP7yeVGW1LT3Tr3MXLI7SB6y3aC"
-                                    />
+                        <div class="win form-win" data-reveal="right">
+                            <div class="win__body form" data-form-type="formoid">
+                                <h3 class="form-title">Envie sua mensagem</h3>
+                                <p class="form-sub">Conte sua necessidade e o nome da sua empresa. Respondemos em breve.</p>
+                                <form action="javascript:void(0);" data-form-title="Mobirise Form" class="php-email-form">
+                                    <input type="hidden" name="email" data-form-email="true" value="7D23IQ+NlYc8CLWW65abZMC+fPqeIbk5l5Jc9OJey5/Cn5AG3jbVz7Q7iEFb2p+6TyzBHNxrE5cEfsILRbO6WY8tHq5/NO8QK+Y37WP7yeVGW1LT3Tr3MXLI7SB6y3aC" />
                                     <div class="form-row">
-                                        <div class="form-group col-lg-6">
-                                            <input
-                                                type="text"
-                                                name="name"
-                                                placeholder="Seu nome"
-                                                data-form-field="Name"
-                                                required="required"
-                                                class="form-control"
-                                                id="name-header15-48"
-                                            />
-
-                                            <div class="validate"></div>
+                                        <div class="field">
+                                            <label for="name-header15-48">Nome</label>
+                                            <input type="text" name="name" placeholder="Seu nome" data-form-field="Name" required="required" class="form-control" id="name-header15-48" />
                                         </div>
-                                        <div class="form-group col-lg-6">
-                                            <input
-                                                type="email"
-                                                name="email"
-                                                placeholder="Seu endereço de e-mail"
-                                                data-form-field="Email"
-                                                required="required"
-                                                class="form-control"
-                                                id="email-header15-48"
-                                            />
-
-                                            <div class="validate"></div>
+                                        <div class="field">
+                                            <label for="email-header15-48">E-mail</label>
+                                            <input type="email" name="email" placeholder="Seu endereço de e-mail" data-form-field="Email" required="required" class="form-control" id="email-header15-48" />
                                         </div>
                                     </div>
-
-                                    <div class="form-group">
-                                        <textarea
-                                            name="message"
-                                            placeholder="Por favor informe sua necessidade em relação a consultoria e serviços e o nome da sua empresa"
-                                            data-form-field="Message"
-                                            class="form-control"
-                                            id="message-header15-48"
-                                        ></textarea>
-                                        <div class="validate"></div>
+                                    <div class="field">
+                                        <label for="message-header15-48">Mensagem</label>
+                                        <textarea name="message" placeholder="Por favor informe sua necessidade em relação a consultoria e serviços e o nome da sua empresa" data-form-field="Message" class="form-control" id="message-header15-48"></textarea>
                                     </div>
 
-                                    <div class="mb-3">
-                                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Em breve responderemos sua mensagem!</div>
-                                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                    </div>
-                                    <div class="text-center">
-                                        <button type="submit" title="Send Message">Enviar</button>
+                                    <div hidden="hidden" data-form-alert="" class="alert alert-success">Em breve responderemos sua mensagem!</div>
+                                    <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger"></div>
+
+                                    <div class="form-actions">
+                                        <span class="hint">$ enviar --para jack</span>
+                                        <button type="submit" title="Send Message" class="btn">Enviar <i class="fa fa-paper-plane"></i></button>
                                     </div>
                                 </form>
                             </div>
@@ -564,81 +279,56 @@
                     </div>
                 </div>
             </section>
-            <!-- End Contact Section -->
-
         </main>
-        <footer id="why-us">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 footer-info">
-                            <h3>Jack Experts</h3>
-                            <p>
-                                Kubernetes, DevOps, Infra as Code e Computação em Nuvem.
-                                <br /><br />Consultoria, serviços e treinamentos. <br /><br />Sob medida. Simples assim.
-                            </p>
-                        </div>
 
-                        <div class="col-md-6 footer-contact">
-                            <h4>Endereço</h4>
-                            <p>
-                                <br />SCRS 516, Bloco B, Nº 69 <br />Asa Sul CEP: 70.381-525 <br />Brasília/DF <br /><br /><b>CNPJ: 33.571.517/0001-90</b>
-                               <br> <strong>Phones:</strong> <br /> 
-                                +55 61 9 9912-6854
-                                <br /><strong>Email:</strong> contato@jackexperts.com<br />
-                            </p>
+        <!-- ======= Footer ======= -->
+        <footer class="site-footer">
+            <div class="wrap">
+                <div class="footer-grid">
+                    <div>
+                        <h3>Jack <span>Experts</span></h3>
+                        <p>Kubernetes, DevOps, Infra as Code e Computação em Nuvem.</p>
+                        <p>Consultoria, serviços e treinamentos.</p>
+                        <p><strong>Sob medida. Simples assim.</strong></p>
+                    </div>
 
-                            <div class="social-links">
-                              <br><a href="https://twitter.com/jackexperts" target="_blank" class="twitter"><i class="fa fa-twitter"></i> Twitter</a>
-                              <br><a href="https://pt-br.facebook.com/pg/jackexperts" class="facebook"><i class="fa fa-facebook"></i> Facebook</a>
-                              <br><a href="https://www.instagram.com/jackexperts/" class="instagram"><i class="fa fa-instagram"></i> Instagram</a>
-                              <br><a href="https://br.linkedin.com/company/jacexperts" class="linkedin"><i class="fa fa-linkedin"></i> Linkedin</a>
-                              <br><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" class="youtube"><i class="fa fa-youtube"></i> YouTube</a>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>
+                            SCRS 516, Bloco B, Nº 69<br />Asa Sul CEP: 70.381-525<br />Brasília/DF<br /><br />
+                            <b>CNPJ: 33.571.517/0001-90</b><br />
+                            <strong>Phones:</strong> +55 61 9 9912-6854<br />
+                            <strong>Email:</strong> <a href="mailto:contato@jackexperts.com">contato@jackexperts.com</a>
+                        </p>
+                    </div>
 
-                                </div>
-                        </div>
+                    <div>
+                        <h4>Redes sociais</h4>
+                        <ul class="social-list">
+                            <li><a href="https://twitter.com/jackexperts" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            <li><a href="https://pt-br.facebook.com/pg/jackexperts" target="_blank" rel="noopener"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://www.instagram.com/jackexperts/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://br.linkedin.com/company/jacexperts" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCJQMRRNbRwl5Fw5TiNxKFHA" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i> YouTube</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="copyright">&copy; Copyright <strong>Jack Experts</strong>. All Rights Reserved</div>
+
+            <div class="statusbar">
+                <div class="wrap">
+                    <span>&copy; Copyright <strong>Jack Experts</strong>. All Rights Reserved</span>
+                    <span class="led-on">Brasília/DF · Cloud Native</span>
+                </div>
             </div>
         </footer>
-        <!-- End Footer -->
 
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <a href="#" class="back-to-top" aria-label="Voltar ao topo"><i class="fa fa-chevron-up"></i></a>
 
-        <!-- Vendor JS Files -->
+        <!-- jQuery é usado apenas pelo formoid (envio do formulário) -->
         <script src="assets/vendor/jquery/jquery.min.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-        <script src="assets/vendor/counterup/counterup.min.js"></script>
-        <script src="assets/vendor/mobile-nav/mobile-nav.js"></script>
-        <script src="assets/vendor/wow/wow.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-        <script src="assets/vendor/venobox/venobox.min.js"></script>
         <script src="assets/vendor/formoid/formoid.min.js"></script>
-
-        <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
-        <script>
-            $(document).ready(function() {
-              $('a[href^="#"]').on('click', function(event) {
-                var target = $(this.getAttribute('href'));
-                if (target.length) {
-                  event.preventDefault();
-                  $('html, body').stop().animate({
-                    scrollTop: target.offset().top - 200
-                  }, 1000);
-                }
-              });
-            });
-        </script>
-            
     </body>
-
-    
 </html>

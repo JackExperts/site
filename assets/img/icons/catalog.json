@@ -1,0 +1,258 @@
+{
+  "palette": {
+    "ink": "#161616",
+    "yellow": "#f5b919",
+    "blue": "#0a7cff",
+    "paper": "#f7f5ef"
+  },
+  "services": [
+    {
+      "name": "001-estude",
+      "label": "Treinamento",
+      "svg": "../icones/001-estude.svg",
+      "png": "../icones/001-estude.png"
+    },
+    {
+      "name": "002-cientista",
+      "label": "Pesquisa",
+      "svg": "../icones/002-cientista.svg",
+      "png": "../icones/002-cientista.png"
+    },
+    {
+      "name": "003-cientista-1",
+      "label": "Experimentação",
+      "svg": "../icones/003-cientista-1.svg",
+      "png": "../icones/003-cientista-1.png"
+    },
+    {
+      "name": "004-aprendendo",
+      "label": "Conhecimento",
+      "svg": "../icones/004-aprendendo.svg",
+      "png": "../icones/004-aprendendo.png"
+    },
+    {
+      "name": "005-aprender",
+      "label": "DevOps como Serviço",
+      "svg": "../icones/005-aprender.svg",
+      "png": "../icones/005-aprender.png"
+    },
+    {
+      "name": "006-aluna",
+      "label": "Especialista",
+      "svg": "../icones/006-aluna.svg",
+      "png": "../icones/006-aluna.png"
+    },
+    {
+      "name": "007-educacao",
+      "label": "Formação",
+      "svg": "../icones/007-educacao.svg",
+      "png": "../icones/007-educacao.png"
+    },
+    {
+      "name": "008-educacao-1",
+      "label": "Certificação",
+      "svg": "../icones/008-educacao-1.svg",
+      "png": "../icones/008-educacao-1.png"
+    },
+    {
+      "name": "009-aprendizagem-online",
+      "label": "Aprendizagem online",
+      "svg": "../icones/009-aprendizagem-online.svg",
+      "png": "../icones/009-aprendizagem-online.png"
+    },
+    {
+      "name": "010-curso-online",
+      "label": "Curso online",
+      "svg": "../icones/010-curso-online.svg",
+      "png": "../icones/010-curso-online.png"
+    },
+    {
+      "name": "011-aprendizagem-online-1",
+      "label": "Mentoria online",
+      "svg": "../icones/011-aprendizagem-online-1.svg",
+      "png": "../icones/011-aprendizagem-online-1.png"
+    },
+    {
+      "name": "012-computador",
+      "label": "Infraestrutura",
+      "svg": "../icones/012-computador.svg",
+      "png": "../icones/012-computador.png"
+    },
+    {
+      "name": "013-programas",
+      "label": "Observabilidade",
+      "svg": "../icones/013-programas.svg",
+      "png": "../icones/013-programas.png"
+    },
+    {
+      "name": "014-computador-1",
+      "label": "Observabilidade",
+      "svg": "../icones/014-computador-1.svg",
+      "png": "../icones/014-computador-1.png"
+    },
+    {
+      "name": "015-trabalhador",
+      "label": "Consultoria",
+      "svg": "../icones/015-trabalhador.svg",
+      "png": "../icones/015-trabalhador.png"
+    },
+    {
+      "name": "016-navegador",
+      "label": "Aplicações web",
+      "svg": "../icones/016-navegador.svg",
+      "png": "../icones/016-navegador.png"
+    },
+    {
+      "name": "017-api",
+      "label": "Kubernetes",
+      "svg": "../icones/017-api.svg",
+      "png": "../icones/017-api.png"
+    },
+    {
+      "name": "018-api-1",
+      "label": "API e conectividade",
+      "svg": "../icones/018-api-1.svg",
+      "png": "../icones/018-api-1.png"
+    },
+    {
+      "name": "019-lasca",
+      "label": "Computação",
+      "svg": "../icones/019-lasca.svg",
+      "png": "../icones/019-lasca.png"
+    }
+  ],
+  "interface": [
+    {
+      "name": "angle-down",
+      "svg": "ui/angle-down.svg"
+    },
+    {
+      "name": "angle-left",
+      "svg": "ui/angle-left.svg"
+    },
+    {
+      "name": "arrow-right",
+      "svg": "ui/arrow-right.svg"
+    },
+    {
+      "name": "external-link",
+      "svg": "ui/external-link.svg"
+    },
+    {
+      "name": "chevron-up",
+      "svg": "ui/chevron-up.svg"
+    },
+    {
+      "name": "check",
+      "svg": "ui/check.svg"
+    },
+    {
+      "name": "envelope-o",
+      "svg": "ui/envelope-o.svg"
+    },
+    {
+      "name": "phone",
+      "svg": "ui/phone.svg"
+    },
+    {
+      "name": "map-marker",
+      "svg": "ui/map-marker.svg"
+    },
+    {
+      "name": "paper-plane",
+      "svg": "ui/paper-plane.svg"
+    },
+    {
+      "name": "lock",
+      "svg": "ui/lock.svg"
+    },
+    {
+      "name": "play-circle",
+      "svg": "ui/play-circle.svg"
+    },
+    {
+      "name": "window-restore",
+      "svg": "ui/window-restore.svg"
+    },
+    {
+      "name": "ship",
+      "svg": "ui/ship.svg"
+    },
+    {
+      "name": "rocket",
+      "svg": "ui/rocket.svg"
+    },
+    {
+      "name": "bar-chart",
+      "svg": "ui/bar-chart.svg"
+    },
+    {
+      "name": "book",
+      "svg": "ui/book.svg"
+    },
+    {
+      "name": "archive",
+      "svg": "ui/archive.svg"
+    },
+    {
+      "name": "code",
+      "svg": "ui/code.svg"
+    },
+    {
+      "name": "desktop",
+      "svg": "ui/desktop.svg"
+    },
+    {
+      "name": "spinner",
+      "svg": "ui/spinner.svg"
+    },
+    {
+      "name": "bars",
+      "svg": "ui/bars.svg"
+    },
+    {
+      "name": "times",
+      "svg": "ui/times.svg"
+    },
+    {
+      "name": "plus",
+      "svg": "ui/plus.svg"
+    },
+    {
+      "name": "minus",
+      "svg": "ui/minus.svg"
+    }
+  ],
+  "social": [
+    {
+      "name": "facebook",
+      "svg": "ui/facebook.svg",
+      "source": "Font Awesome 4.7 bundled in assets/vendor/font-awesome",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "name": "twitter",
+      "svg": "ui/twitter.svg",
+      "source": "Font Awesome 4.7 bundled in assets/vendor/font-awesome",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "name": "linkedin",
+      "svg": "ui/linkedin.svg",
+      "source": "Font Awesome 4.7 bundled in assets/vendor/font-awesome",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "name": "instagram",
+      "svg": "ui/instagram.svg",
+      "source": "Font Awesome 4.7 bundled in assets/vendor/font-awesome",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "name": "youtube-play",
+      "svg": "ui/youtube-play.svg",
+      "source": "Font Awesome 4.7 bundled in assets/vendor/font-awesome",
+      "license": "SIL OFL 1.1"
+    }
+  ]
+}

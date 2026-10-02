@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1092" viewBox="0 0 960 1092">
+<title>Cookies descritos na política de privacidade</title>
+<desc>Tabela com os cookies _ga, _gid, _gat_UA-135468158-1 e lang. Conteúdo mantido conforme a imagem original da política.</desc>
+<rect width="960" height="1092" rx="20" fill="#fff"/>
+<rect x="24" y="24" width="912" height="72" rx="10" fill="#fff4d3"/>
+<g font-family="Arial, sans-serif" font-size="21" fill="#161616">
+<text x="40" y="69" font-weight="700">Cookie</text>
+<text x="221" y="69" font-weight="700">Descrição</text>
+<text x="695" y="69" font-weight="700">Duração</text>
+<text x="822" y="69" font-weight="700">Tipo</text>
+<text x="40" y="130" font-weight="700">_ga</text>
+<text x="221" y="130">Este cookie é instalado pelo Google</text>
+<text x="221" y="159">Analytics. O cookie é usado para calcular</text>
+<text x="221" y="188">dados de visitantes, sessões, campanhas e</text>
+<text x="221" y="217">acompanhar o uso do site no relatório de</text>
+<text x="221" y="246">análise do site. Os cookies armazenam</text>
+<text x="221" y="275">informações anonimamente e atribuem um</text>
+<text x="221" y="304">número gerado aleatoriamente para</text>
+<text x="221" y="333">identificar visitantes únicos.</text>
+<text x="695" y="130">2 anos</text>
+<text x="822" y="130">Google</text>
+<text x="822" y="159">Analytics</text>
+<path d="M24 368h912" stroke="#e7e3d8"/>
+<rect x="24" y="368" width="912" height="272" fill="#f7f5ef"/>
+<text x="40" y="402" font-weight="700">_gid</text>
+<text x="221" y="402">Este cookie é instalado pelo Google</text>
+<text x="221" y="431">Analytics. O cookie é usado para armazenar</text>
+<text x="221" y="460">informações de como os visitantes usam um</text>
+<text x="221" y="489">site e ajuda na criação de um relatório de</text>
+<text x="221" y="518">análise de como o site website está indo. Os</text>
+<text x="221" y="547">dados coletados, incluindo o número de</text>
+<text x="221" y="576">visitantes, a origem de onde eles vieram e as</text>
+<text x="221" y="605">páginas foram exibidas de forma anônima.</text>
+<text x="695" y="402">1 dia</text>
+<text x="822" y="402">Google</text>
+<text x="822" y="431">Analytics</text>
+<path d="M24 640h912" stroke="#e7e3d8"/>
+<text x="40" y="674" font-weight="700">_gat_UA-1354</text>
+<text x="40" y="703" font-weight="700">68158-1</text>
+<text x="221" y="674">Este é um cookie do tipo padrão definido pelo</text>
+<text x="221" y="703">Google Analytics, em que o elemento do</text>
+<text x="221" y="732">padrão no nome contém o número de</text>
+<text x="221" y="761">identidade exclusivo da conta ou site ao qual</text>
+<text x="221" y="790">se relaciona. Parece ser uma variação do</text>
+<text x="221" y="819">cookie _gat, usada para limitar a quantidade</text>
+<text x="221" y="848">de dados registrados pelo Google em sites de</text>
+<text x="221" y="877">alto volume de tráfego.</text>
+<text x="695" y="674">1 minuto</text>
+<text x="822" y="674">Google</text>
+<text x="822" y="703">Analytics</text>
+<path d="M24 912h912" stroke="#e7e3d8"/>
+<rect x="24" y="912" width="912" height="156" fill="#f7f5ef"/>
+<text x="40" y="946" font-weight="700">lang</text>
+<text x="221" y="946">Esse cookie é usado para armazenar as</text>
+<text x="221" y="975">preferências de idioma de um usuário para</text>
+<text x="221" y="1004">exibir conteúdo nesse idioma armazenado na</text>
+<text x="221" y="1033">próxima vez que o usuário visitar o site.</text>
+<text x="822" y="946">Funcional</text>
+<path d="M24 1068h912" stroke="#e7e3d8"/>
+</g></svg>
