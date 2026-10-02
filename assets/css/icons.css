@@ -1,0 +1,69 @@
+/* Jack Experts: local SVG icons. The existing fa-* hooks remain compatible.
+   Interface drawings are original; social marks retain the bundled Font Awesome paths. */
+.fa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1em;
+  height: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: -0.125em;
+}
+.fa::before {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask: var(--jack-icon) center / contain no-repeat;
+  mask: var(--jack-icon) center / contain no-repeat;
+}
+.fa-angle-down { --jack-icon: url("../img/icons/ui/angle-down.svg"); }
+.fa-angle-left { --jack-icon: url("../img/icons/ui/angle-left.svg"); }
+.fa-arrow-right { --jack-icon: url("../img/icons/ui/arrow-right.svg"); }
+.fa-external-link { --jack-icon: url("../img/icons/ui/external-link.svg"); }
+.fa-chevron-up { --jack-icon: url("../img/icons/ui/chevron-up.svg"); }
+.fa-check { --jack-icon: url("../img/icons/ui/check.svg"); }
+.fa-envelope-o { --jack-icon: url("../img/icons/ui/envelope-o.svg"); }
+.fa-phone { --jack-icon: url("../img/icons/ui/phone.svg"); }
+.fa-map-marker { --jack-icon: url("../img/icons/ui/map-marker.svg"); }
+.fa-paper-plane { --jack-icon: url("../img/icons/ui/paper-plane.svg"); }
+.fa-lock { --jack-icon: url("../img/icons/ui/lock.svg"); }
+.fa-play-circle { --jack-icon: url("../img/icons/ui/play-circle.svg"); }
+.fa-window-restore { --jack-icon: url("../img/icons/ui/window-restore.svg"); }
+.fa-ship { --jack-icon: url("../img/icons/ui/ship.svg"); }
+.fa-rocket { --jack-icon: url("../img/icons/ui/rocket.svg"); }
+.fa-bar-chart { --jack-icon: url("../img/icons/ui/bar-chart.svg"); }
+.fa-book { --jack-icon: url("../img/icons/ui/book.svg"); }
+.fa-archive { --jack-icon: url("../img/icons/ui/archive.svg"); }
+.fa-code { --jack-icon: url("../img/icons/ui/code.svg"); }
+.fa-desktop { --jack-icon: url("../img/icons/ui/desktop.svg"); }
+.fa-spinner { --jack-icon: url("../img/icons/ui/spinner.svg"); }
+.fa-bars { --jack-icon: url("../img/icons/ui/bars.svg"); }
+.fa-times { --jack-icon: url("../img/icons/ui/times.svg"); }
+.fa-plus { --jack-icon: url("../img/icons/ui/plus.svg"); }
+.fa-minus { --jack-icon: url("../img/icons/ui/minus.svg"); }
+.fa-facebook { --jack-icon: url("../img/icons/ui/facebook.svg"); }
+.fa-twitter { --jack-icon: url("../img/icons/ui/twitter.svg"); }
+.fa-linkedin { --jack-icon: url("../img/icons/ui/linkedin.svg"); }
+.fa-instagram { --jack-icon: url("../img/icons/ui/instagram.svg"); }
+.fa-youtube-play { --jack-icon: url("../img/icons/ui/youtube-play.svg"); }
+.btn.btn-loading .fa { --jack-icon: url("../img/icons/ui/spinner.svg"); }
+.btn.btn-loading .fa::before { content: ""; }
+.plan__features li::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  top: 12px;
+  background-color: currentColor;
+  -webkit-mask: url("../img/icons/ui/check.svg") center / contain no-repeat;
+  mask: url("../img/icons/ui/check.svg") center / contain no-repeat;
+}
+.fa-spin { animation: jack-icon-spin 1s linear infinite; }
+@keyframes jack-icon-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .fa-spin { animation: none; } }
+@media (forced-colors: active) { .fa::before { background-color: CanvasText; } }

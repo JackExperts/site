@@ -1,0 +1,128 @@
+{
+  "project": "Jack Experts — refreshed visual assets",
+  "date": "2026-10-02",
+  "preview": "../visual-preview.html",
+  "style": {
+    "palette": {
+      "ink": "#161616",
+      "yellow": "#f5b919",
+      "blue": "#0a7cff",
+      "paper": "#f7f5ef"
+    },
+    "direction": "Clean flat editorial illustration with confident outlines, warm neutrals, yellow emphasis and restrained blue details; follows the current site CSS."
+  },
+  "integration": {
+    "replacement_paths": [
+      "jac/mascote.png",
+      "plans/banner.jpg",
+      "about-img.svg",
+      "about-extra-1.svg",
+      "about-extra-2.svg",
+      "cookies.png",
+      "favicon.ico",
+      "icones/*.png"
+    ],
+    "new_sources": [
+      "about-img.svg",
+      "about-extra-1.svg",
+      "about-extra-2.svg",
+      "cookies.svg",
+      "cookies-data.json",
+      "favicon.svg",
+      "icones/*.svg",
+      "icons/ui/*.svg"
+    ],
+    "icon_catalog": "icons/catalog.json",
+    "icon_stylesheet": "../css/icons.css",
+    "mascot_clear_space_stylesheet": "../css/visual-assets.css",
+    "html_changes": "Replace the Font Awesome stylesheet with icons.css; add SVG/favicon/touch icon links to index.html, price.html and politica.html; load visual-assets.css only on index.html.",
+    "compatibility": "The existing fa-* classes and image paths continue to work. No package, build step or runtime JavaScript was added.",
+    "preserved": "Official Jack wordmark, customer and technology logos, recognizable social network glyphs, and legacy template assets not used by the current pages. Site layout and JavaScript being edited by the other agent were not overwritten."
+  },
+  "illustrations": [
+    {
+      "path": "jac/mascote.png",
+      "method": "Built-in image_gen; reference-based style transfer; actual alpha transparency",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "plans/banner.jpg",
+      "method": "Built-in image_gen; new illustration; JPEG delivery export",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "about-img.svg",
+      "method": "Original editable SVG",
+      "subject": "Teamwork and Cloud Native"
+    },
+    {
+      "path": "about-extra-1.svg",
+      "method": "Original editable SVG",
+      "subject": "Discovery and action plan"
+    },
+    {
+      "path": "about-extra-2.svg",
+      "method": "Original editable SVG",
+      "subject": "Kanban workflow"
+    },
+    {
+      "path": "cookies.svg",
+      "method": "Editable SVG table, with PNG delivery export",
+      "subject": "Existing policy table, transcribed without updating its factual or legal claims"
+    }
+  ],
+  "icons": {
+    "service_count": 19,
+    "interface_count": 25,
+    "preserved_social_count": 5,
+    "service_delivery": "256 × 256 transparent PNG and 64 × 64 viewBox SVG",
+    "interface_delivery": "24 × 24 viewBox SVG, styled using CSS masks and currentColor",
+    "favicon_sizes": [
+      16,
+      32,
+      48,
+      64,
+      128,
+      256
+    ],
+    "apple_touch_icon": "apple-touch-icon.png",
+    "favicon_revision": 3,
+    "favicon_design": "Optically centered black lowercase a with a continuous flask opening, compact graduated yellow bubbles and yellow liquid on a white rounded tile, matching the original Jack wordmark."
+  },
+  "prompts": {
+    "jac/mascote.png": "Use case: style-transfer. Asset type: transparent website hero mascot for Jack Experts, a Cloud Native / Kubernetes consultancy. Input image 1 is the identity and pose reference. Recreate this same friendly yellow giraffe mascot with brown patches, black rectangular glasses, blue headphones and a laptop, relaxed in a seated pose with legs out to the right. Preserve its long neck, recognizable giraffe face, glasses and approachable geek personality. Transform the drawing into a polished flat editorial retro-tech illustration matching a cream paper website with old computer windows: consistent bold near-black #141414 outlines, simple confident geometry, crisp flat colors, restrained hard offset shadows, warm golden yellow #f5b919 and saturated blue #0a7cff, ivory #fbf7ec and terracotta brown spots. Laptop should be ivory with a simple small blue terminal chevron mark, no written words. Simplify accessories: keep one blue cushion, remove the floor lamp and large ground ellipse. Compact centered silhouette filling about 88% of a square canvas, entire giraffe including horns and feet visible, no cropping and minimal exterior empty padding. Transparent background with actual alpha, no checkerboard baked into image, no backdrop, no enclosing shape. No photorealism, no 3D, no gradients, no texture, no watermark, no typography. Warm, expert, expressive mascot rather than baby-like.",
+    "plans/banner.jpg": "Use case: illustration-story. Asset type: square services-page illustration for Jack Experts cloud-native and DevOps consultancy. Create a beautiful original flat editorial vector-style illustration with confident rounded near-black #161616 outlines, generous breathing room, warm ivory #f7f5ef background, golden yellow #f5b919 dominant accents and a few electric blue #0a7cff details. The current website is clean, corporate, friendly and lightly retro-tech with a dark terminal window. Scene: a thoughtful developer, medium-brown skin, short dark hair and ivory shirt, at a yellow laptop in the lower left, and a large elegant continuous delivery infinity loop behind them at center, drawn as one ribbon with yellow and ivory sections and clean outlines. Around the loop integrate three small clean floating interface panels: a terminal with simple chevron and abstract code lines at upper left, a cloud with three connected small server boxes at upper right, and a compact deployment checklist with checkmarks lower right. One small blue geometric gear as an accent. The person is a supporting element and the connected DevOps workflow is the focal point. Sophisticated simple geometric shapes, cohesive line weight, tiny restrained offset shadows only, polished warm human feel, uncluttered spacious composition, flat 2D. The scene fills around 84% of a 1:1 canvas and stays within all edges. No words, no alphabetic labels, no numbers, no branding, no watermark. No gradients, no photographic textures, no 3D. This is a standalone illustration asset, not a website screenshot.",
+    "jac/mascote.png final cleanup": "Use case: precise-object-edit. Input image 1 is the final Jack Experts giraffe mascot. Make ONE anatomical cleanup and preserve everything else exactly. This giraffe currently appears to have FOUR yellow/orange ears: the intended two long triangular ears INSIDE the blue headphone headband beside the two brown-tipped ossicones, PLUS two extra small pointed ear-like yellow/orange triangles protruding OUTSIDE the left and right headphone cups. Remove ONLY the two extra OUTER ear-like triangles (far left, behind the left blue headphone cup; far right, behind the right blue headphone cup). The result must have exactly TWO ears, both inside the headphone headband, and exactly TWO brown-tipped ossicones. Restore transparent alpha in the areas where those two outer extra triangles were removed, continuing the clean edges of the headphones where needed. Keep the entire rest of the image identical: the seated pose, facial expression, glasses, eyes, head tilt, two proper inner ears, neck, spots, cushion, terminal-mark laptop, arms, legs, all colors, black outlines and composition. Preserve the same square canvas size, scale and placement. Transparent background, actual alpha, no backdrop, no text, no other changes."
+  },
+  "generation_mode": "Built-in image_gen for the mascot and services banner. No CLI/API fallback was used. Vector artwork was authored as SVG.",
+  "validation": {
+    "pages": [
+      "index.html",
+      "price.html",
+      "politica.html"
+    ],
+    "viewports": [
+      1440,
+      375
+    ],
+    "checks": [
+      "All images decode",
+      "No missing local assets",
+      "Every fa icon resolves to an SVG mask",
+      "All 19 plan feature checks render via SVG",
+      "Submit loading state uses an SVG spinner",
+      "No horizontal overflow"
+    ],
+    "network": "Browser verification intentionally blocked external requests and never submitted contact forms.",
+    "mascot_mobile_viewports": [
+      320,
+      375
+    ]
+  }
+}

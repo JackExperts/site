@@ -1,0 +1,14 @@
+Jack Experts icon assets
+
+The interface and service illustrations in this directory and ../icones are
+custom artwork created for this site.
+
+The Facebook, Twitter, LinkedIn, Instagram and YouTube marks in ui/ preserve
+the glyph outlines from the site's bundled Font Awesome 4.7 font. They are
+included only to identify the corresponding services.
+
+Font Awesome by Dave Gandy — http://fontawesome.io
+Copyright Dave Gandy 2016. All rights reserved.
+Font license: SIL Open Font License 1.1.
+License information: http://fontawesome.io/license/
+The original bundled distribution remains in assets/vendor/font-awesome.

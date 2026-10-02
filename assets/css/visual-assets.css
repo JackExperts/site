@@ -1,0 +1,22 @@
+/* Clear space for the new mascot silhouette on narrow screens. */
+@media (max-width: 560px) {
+    .hero__art .badge-float {
+        top: 24%;
+        gap: 8px;
+        padding: 8px 10px;
+    }
+
+    .hero__art .badge-float .fa {
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+
+    .hero__art .badge-float span {
+        font-size: 11px;
+    }
+
+    .hero__art .badge-float strong {
+        font-size: 12px;
+    }
+}
